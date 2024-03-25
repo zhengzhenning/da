@@ -26,6 +26,17 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true, 
     },
+    // 侧边栏配置 - 数据库笔记
+    {
+      text: "数据库笔记",
+      icon: "book",
+      prefix: "数据库笔记/",
+      link: "数据库笔记/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true, 
+    },
     {
       text: "如何使用",
       icon: "laptop-code",
