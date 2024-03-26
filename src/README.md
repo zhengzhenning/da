@@ -2,47 +2,42 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: 主页
+# bgImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroText: 数字资产管理中心
 heroFullScreen: true
+tagline: 记录与传承
 projects:
   - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+    name: 项目名称
+    desc: 项目详细描述
+    link: https://你的项目链接
 
   - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+    name: 链接名称
+    desc: 链接详细描述
+    link: https://链接地址
 
   - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+    name: 书籍名称
+    desc: 书籍详细描述
+    link: https://你的书籍链接
 
   - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+    name: 文章名称
+    desc: 文章详细描述
+    link: https://你的文章链接
 
   - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+    name: 伙伴名称
+    desc: 伙伴详细介绍
+    link: https://你的伙伴链接
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+    name: 自定义项目
+    desc: 自定义详细介绍
+    link: https://你的自定义链接
 
-footer: customize your footer text
+footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义现代化国家而努力奋斗
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/).
