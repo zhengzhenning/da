@@ -7,37 +7,19 @@ title: 主页
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: 数字资产管理中心
 heroFullScreen: true
-tagline: 记录与传承
+tagline: 记录
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: link
+    name: 中国工商银行清算风险运营管理平台
+    desc: 以智能决策引擎为底座实现对风险交易行为的准实时监控与识别，并基于事中、事后甄别实现对风险交易的有效阻断与归档管理。系统核心功能为：送检报文、模型命中、风险甄别、凭证管理、流水管理以及批量化、自动化作业等。
+    link: /intro.md
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 安全治理——出行隐患与治理解决方案
+    desc: 平台连接企业、监管、司机三端一条线，解决出行隐患与安全治理问题。系统核心功能为隐患发现、隐患分析、违章治理、治理再分析、数据分析与报告。
+    link: http://182.140.209.49:8000/userCenter/login
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
-
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
 
 footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义现代化国家而努力奋斗
 ---
