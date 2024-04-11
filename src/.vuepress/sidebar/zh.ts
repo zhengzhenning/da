@@ -4,6 +4,17 @@ export const zhSidebar = sidebar({
   "/": [
     // 主页
     "",
+    // 侧边栏配置 - 《网络原理》
+    {
+      text: "网络原理",
+      icon: "book",
+      prefix: "网络原理/",
+      link: "网络原理/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true, 
+    },   
     // 侧边栏配置 - 《Java笔记》
     {
       text: "Java笔记",
