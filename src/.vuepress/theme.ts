@@ -4,6 +4,7 @@ import { zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
+
   hostname: "https://mister-hope.github.io",
 
   author: {
@@ -13,47 +14,49 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
+  // 网站图标
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // Git 仓库和编辑链接
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
   blog: {
-    medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
-    },
+    // medias: {
+    //   Baidu: "https://example.com",
+    //   BiliBili: "https://example.com",
+    //   Bitbucket: "https://example.com",
+    //   Dingding: "https://example.com",
+    //   Discord: "https://example.com",
+    //   Dribbble: "https://example.com",
+    //   Email: "mailto:info@example.com",
+    //   Evernote: "https://example.com",
+    //   Facebook: "https://example.com",
+    //   Flipboard: "https://example.com",
+    //   Gitee: "https://example.com",
+    //   GitHub: "https://example.com",
+    //   Gitlab: "https://example.com",
+    //   Gmail: "mailto:info@example.com",
+    //   Instagram: "https://example.com",
+    //   Lark: "https://example.com",
+    //   Lines: "https://example.com",
+    //   Linkedin: "https://example.com",
+    //   Pinterest: "https://example.com",
+    //   Pocket: "https://example.com",
+    //   QQ: "https://example.com",
+    //   Qzone: "https://example.com",
+    //   Reddit: "https://example.com",
+    //   Rss: "https://example.com",
+    //   Steam: "https://example.com",
+    //   Twitter: "https://example.com",
+    //   Wechat: "https://example.com",
+    //   Weibo: "https://example.com",
+    //   Whatsapp: "https://example.com",
+    //   Youtube: "https://example.com",
+    //   Zhihu: "https://example.com",
+    //   MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
+    // },
   },
 
   locales: {
@@ -71,9 +74,15 @@ export default hopeTheme({
 
       displayFooter: true,
 
+      // 博客基本信息
       blog: {
-        description: "数字资产中心",
-        intro: "/zh/intro.html",
+        // 博客名
+        name: "郑振宁",
+        // 博客头像
+        avatar: "/avatar.jpg",
+        // 博客头像-裁剪成圆形
+        roundAvatar: true,
+        description: "后端研发工程师（Java）",
       },
 
       // page meta
