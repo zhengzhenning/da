@@ -4,9 +4,9 @@
 
 ![Helm 架构图（来自 IBM Developer Blog）](../images/008eGmZEgy1gpgrnoxlzlj30rq0ju75f.jpg)
 
-通过[指南](https://helm.sh/zh/)安装并使用Helm，可以安装 [minikube](https://minikube.sigs.k8s.io/docs/start/) 搭建一个小型的K8环境。指南提供了 Helm 的丰富用法。
+通过[指南](https://helm.sh/zh/)安装并使用Helm，指南提供了 Helm 的丰富用法。
 
-安装好 `minikube` 后，可以：
+可以安装 [minikube](https://minikube.sigs.k8s.io/docs/start/) 搭建一个小型的K8环境。安装好 `minikube` 后，可以：
 
 - 使用 `minikube start` 启动
 - 使用 `kubectl version` 看 kube 版本

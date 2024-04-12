@@ -1,42 +1,18 @@
-# [Nacos](https://github.com/alibaba/nacos)
+# Nacos
 
-# 动态配置 ==*==
+ 官方：一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台
 
-![image-20210717210645847](https://tva1.sinaimg.cn/large/008i3skNgy1gsk927gkt0j31cm0fgdi7.jpg)
+- [官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html) 。文档提供 `Spring`、 `Spring Boot`、`Spring Cloud` 快速集成指南，应当以文档为准，不必赘述。
 
-**命名空间**
 
-使用场景：不同环境的区分隔离，如开发环境、生产环境、测试环境。
 
-**配置**
+## 解决方案
 
-**Data ID**
-
-官方称其为“配置集ID”,用来划分系统的配置集。一个系统或应用可以包含多个配置集，每个配置集都可以被一个有意义的名称标识，即Data ID。*官方建议：Data ID 通常采用类 Java 包（如 com.taobao.tc.refund.log.level）的命名规则保证全局唯一性。此命名规则非强制。*
-
-<b style="color:red">为什么以及什么时候使用Data ID ?</b>
-
-**GROUP**
-
-官方称其为“配置分组”，对**配置集**进行分组。默认分组名：`DEFAULT_GROUP`
-
-使用场景：不同的应用或组件使用了相同的配置类型。
+[SCA Nacos Config 共享配置方案设计](https://github.com/alibaba/spring-cloud-alibaba/issues/141)，解决多地区、多环境问题。比如：项目独立部署北京、上海、成都等地区；项目部署测试环境、回装环境、正式环境等环境。
 
 
 
 
-
-# 服务发现 ==*==
-
-![image-20210717210624005](https://tva1.sinaimg.cn/large/008i3skNgy1gsk91tyg27j31c60getbh.jpg)
-
-
-
-# 动态DNS
-
-![image-20210717210538655](https://tva1.sinaimg.cn/large/008i3skNgy1gsk911ye7xj31bo0h0n03.jpg)
-
-[nacos架构](https://nacos.io/zh-cn/docs/architecture.html)
 
 # SpringBoot Nacos
 
