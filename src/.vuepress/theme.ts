@@ -82,7 +82,7 @@ export default hopeTheme({
         avatar: "/avatar.jpg",
         // 博客头像-裁剪成圆形
         roundAvatar: true,
-        description: "后端研发工程师（Java）",
+        description: "后端研发工程师（Java），善于业务流程设计、代码重构、设计模式落地应用、SQL性能分析与优化、单元测试、项目需求全过程跟踪闭环等",
       },
 
       // page meta

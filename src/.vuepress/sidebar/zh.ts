@@ -4,6 +4,17 @@ export const zhSidebar = sidebar({
   "/": [
     // 主页
     "",
+    // 侧边栏配置 - 《系统结构》
+    {
+      text: "系统结构",
+      icon: "book",
+      prefix: "系统结构/",
+      link: "系统结构/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
     // 侧边栏配置 - 《网络原理》
     {
       text: "网络原理",
@@ -13,8 +24,8 @@ export const zhSidebar = sidebar({
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true, 
-    },   
+      collapsible: true,
+    },
     // 侧边栏配置 - 《Java笔记》
     {
       text: "Java笔记",
@@ -24,7 +35,7 @@ export const zhSidebar = sidebar({
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true, 
+      collapsible: true,
     },
     // 侧边栏配置 - 业务沉淀
     {
@@ -35,7 +46,7 @@ export const zhSidebar = sidebar({
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true, 
+      collapsible: true,
     },
     // 侧边栏配置 - 数据库笔记
     {
@@ -46,19 +57,19 @@ export const zhSidebar = sidebar({
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true, 
+      collapsible: true,
     },
-        // 侧边栏配置 - Activiti7笔记
-        {
-          text: "Activiti7笔记",
-          icon: "book",
-          prefix: "Activiti7笔记/",
-          link: "Activiti7笔记/",
-          // 自动生成侧边栏
-          children: "structure",
-          // // 可选的, 设置分组是否可以折叠，默认值是 false,
-          collapsible: true, 
-        },
+    // 侧边栏配置 - Activiti7笔记
+    {
+      text: "Activiti7笔记",
+      icon: "book",
+      prefix: "Activiti7笔记/",
+      link: "Activiti7笔记/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
     "intro",
   ],
 });
