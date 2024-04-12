@@ -119,6 +119,8 @@ export default hopeTheme({
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
+      // 启用 GFM 警告
+      alert: true,
       // 使用 KaTeX 启用 TeX 支持
       katex: true,
       align: true,

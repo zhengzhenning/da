@@ -37,6 +37,28 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
     },
+    // 侧边栏配置 - 《微服务架构》
+    {
+      text: "微服务架构",
+      icon: "book",
+      prefix: "微服务架构/",
+      link: "微服务架构/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
+    // 侧边栏配置 - 《组件笔记》
+    {
+      text: "组件笔记",
+      icon: "book",
+      prefix: "组件笔记/",
+      link: "组件笔记/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
     // 侧边栏配置 - 业务沉淀
     {
       text: "业务沉淀",
