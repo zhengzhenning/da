@@ -1,6 +1,4 @@
-
-
-# [Nacos](https://github.com/alibaba/nacos) ==*==
+# [Nacos](https://github.com/alibaba/nacos)
 
 # 动态配置 ==*==
 

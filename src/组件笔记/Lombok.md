@@ -1,6 +1,5 @@
-# Lombok#实践指南
+# Lombok
 
-<!--始于21年11月24日-->
 
 > 除官方文档，另外两篇的介绍已经非常全面了，就不重复造轮子。
 
@@ -16,7 +15,7 @@
 
 ## @SupperBuilder不和@Data一起用
 
-![PlatformLog](https://tva1.sinaimg.cn/large/e6c9d24ely1h02adi3pcoj21e20h2423.jpg)
+![PlatformLog](../images/e6c9d24ely1h02adi3pcoj21e20h2423.jpg)
 
 ```java
 @Setter
@@ -54,6 +53,8 @@ public class PlatformLogPO extends CommonFields {}
 ```
 
 原因：lombok生成的构造器语义不完整：
+
+
 
 ![image-20220308110108302](https://tva1.sinaimg.cn/large/e6c9d24ely1h02ak6v329j21bf0u0gx0.jpg)
 
