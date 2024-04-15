@@ -3,7 +3,7 @@
 > [!important]
 > 构建云原生应用的动态服务发现、配置管理和服务管理平台
 
-- [官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html) 。文档提供 `Spring`、 `Spring Boot`、`Spring Cloud` 快速集成指南，应当以文档为准，不必赘述。
+- [官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html) 。文档提供 `Spring`、 `Spring Boot`、`Spring Cloud` 快速集成指南，当以文档为准，不再赘述。
 - [Spring Cloud Alibaba Nacos Config](https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config) 。
 
 
@@ -29,10 +29,6 @@ spring.cloud.nacos.shared.dataids=global.yaml,app-common.yaml,app-local-common.y
 ![安全治理配置管理的痛点](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008i3skNgy1grm6ucrsgwj31lh0u0dpi-20240415170816869.jpg)
 
 此处不赘述方案实现步骤，仅提供解决思路：按照Nacos的配置文件加载顺序，在 `spring.cloud.nacos.shared.dataids` 声明需要加载的配置文件集，一般需要提供通用公共配置文件以及微服务自身的配置文件。
-
-> [!tip] 
->
-> 100
 
 
 
