@@ -38,5 +38,3 @@ spring.cloud.nacos.shared.dataids=global.yaml,app-common.yaml,app-local-common.y
 
 
 
-
-

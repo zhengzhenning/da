@@ -2,6 +2,10 @@
 
 # Helm
 
+> [!important]
+>
+> Helm 是查找、分享和使用软件构建 [Kubernetes](https://kubernetes.io/) 的最优方式。
+
 ![Helm 架构图（来自 IBM Developer Blog）](../images/008eGmZEgy1gpgrnoxlzlj30rq0ju75f.jpg)
 
 通过[指南](https://helm.sh/zh/)安装并使用Helm，指南提供了 Helm 的丰富用法。
@@ -32,6 +36,3 @@ Helm 的使用以[官方文档](https://helm.sh/zh/)为准，此处不赘述。
 
 
 
-> [!tip]
->
-> **笔记完成度：100%**
