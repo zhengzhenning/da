@@ -3,8 +3,6 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
-
-
 # 前言
 
 一个目的：构建索引式、资源型的知识体系。
