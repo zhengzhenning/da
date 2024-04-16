@@ -5,6 +5,7 @@ import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
 
+
   hostname: "https://mister-hope.github.io",
 
   author: {
@@ -247,4 +248,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+},{ custom: true }); // 开启组件自定义
