@@ -2,8 +2,10 @@
 
 > [!important]
 > 构建云原生应用的动态服务发现、配置管理和服务管理平台
+>
+> - [https://nacos.io](https://nacos.io)
 
-- [官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html) 。文档提供 `Spring`、 `Spring Boot`、`Spring Cloud` 快速集成指南，当以文档为准，不再赘述。
+- [官方文档](https://nacos.io/zh-cn/docs/v2/quickstart/quick-start.html)提供 `Spring`、 `Spring Boot`、`Spring Cloud` 快速集成指南。
 - [Spring Cloud Alibaba Nacos Config](https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config) 。
 
 

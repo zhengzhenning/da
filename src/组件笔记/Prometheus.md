@@ -3,9 +3,8 @@
 > [!important]
 >
 > Prometheus 是开源的监控和警报工具套件，适用于微服务、容器和动态计算环境，在 Kubernetes 等容器编排平台的社区中非常流行。
-
-- [https://prometheus.io](https://prometheus.io) 官网
-- [https://prometheus.io/docs/concepts/metric_types/](https://prometheus.io/docs/concepts/metric_types/) 4种监控指标
+>
+> - [https://prometheus.io](https://prometheus.io) 
 
 ![architecture](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008i3skNgy1gsffp140x9j311j0mjjtq.jpg)
 
