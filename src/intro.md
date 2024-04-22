@@ -5,21 +5,9 @@ cover: /assets/images/cover3.jpg
 
 # 前言
 
-一个目的：构建索引式、资源型的知识体系。
-
-常常陷入想要从头到尾构建积累技术栈，但现实实际情况往往使得这一步难以持续、稳定地推进下，积累了一系列零零散散、不成体系的技术知识，同时积累的笔记在实际中未起到温故作用。
-
-大量实际工作情况表明：绝大多数的技术通常止步于“用”，当我们知道了“怎么用”时，便会马上停止探索，转向工作台继续解决实际问题。很少亦几乎不可能继续探索“为什么”。这就导致了在积累的过程当中只是简单地从东搬到西。自身在知识体系建立过程中始终充当着知识搬运工的角色。为了打破“搬运”思维，现打算以构建“索引式、资源型”的方式重塑我的知识体系。
-
-所谓索引，是数据库的术语，其作用是提高数据检索速度。我亦想复用索引理念，提高知识搜索与整合的速度。
-
-所谓资源，是服务器的术语，人的精力和大脑的容量同CPU、主存一样是有限的，负荷超载必将导致处理器中断、内存异常，因此要穷尽知识几乎不可能。我亦想复用资源理念，妥善管理我的知识容量。
-
-从此刻起，不再做知识搬运工，转向做<u>知识的管理者</u>：
-
-- 知道有什么
-- 知道是什么
-- 知道在哪里
+> [!important]
+>
+> 构建索引式、资源型数字资产库，破除“搬运”思维，培育“系统”思维。
 
 |   主题   | 备注                                           |
 | :------: | :--------------------------------------------- |
@@ -49,7 +37,9 @@ cover: /assets/images/cover3.jpg
 
  https://tobebetterjavaer.com  沉默王二面试 
 
-# 技术社区
+
+
+# 社区
 
 [https://developer.ibm.com](https://developer.ibm.com) IBM `社区`
 
@@ -75,7 +65,7 @@ cover: /assets/images/cover3.jpg
 
 [https://www.csdn.net](https://www.csdn.net) CSDN `社区`
 
-# 技术文档
+# 文档
 
 [http://icyfenix.cn](http://icyfenix.cn ) 凤凰架构
 
@@ -207,7 +197,9 @@ https://orika-mapper.github.io/orika-docs/  orika `对象拷贝`
 
 
 
-# 技术人物 👨🏻‍💻
+
+
+# 人物 👨🏻‍💻
 
 https://funglee.github.io 李峰/山东大学/教授 `系统结构`
 
@@ -228,6 +220,10 @@ http://blog.cleancoder.com  👨🏻‍💻 Robert C.马丁（鲍勃叔叔）
  [https://github.com/crisxuan/bestJavaer]([https://github.com/crisxuan/bestJavaer](ticktick://ttMarkdownLink))  👨🏻‍💻程序员cxuan 
 
  https://www.bruceeckel.com  👨🏻‍💻 Bruce Eckel 《OnJava8》
+
+
+
+
 
 
 
