@@ -26,6 +26,17 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
     },
+    // 侧边栏配置 - 操作系统
+    {
+      text: "操作系统",
+      icon: "book",
+      prefix: "操作系统/",
+      link: "操作系统/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
     // 侧边栏配置 - 《Java笔记》
     {
       text: "Java笔记",
