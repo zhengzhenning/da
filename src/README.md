@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 # bgImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
-# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
 heroText: 数字资产管理中心
 heroFullScreen: true
 tagline: 记录
