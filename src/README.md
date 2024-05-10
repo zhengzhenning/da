@@ -1,13 +1,13 @@
 ---
 home: true
-layout: BlogHome
+layout: PortfolioHome 
 icon: home
 title: 主页
 # bgImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
 # heroImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
 heroText: 数字资产管理中心
 heroFullScreen: true
-tagline: 记录
+tagline: 劳动创造幸福 奋斗铸就伟业
 projects:
   - icon: link
     name: 中国工商银行清算风险运营管理平台
