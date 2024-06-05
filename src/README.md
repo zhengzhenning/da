@@ -1,13 +1,11 @@
----
+--- 
+portfolio: true
 home: true
-layout: PortfolioHome 
 icon: home
+name: 数资中心
 title: 主页
-# bgImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
-# heroImage: https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/IMG_2451.jpg
-heroText: 数字资产管理中心
-heroFullScreen: true
-tagline: 劳动创造幸福 奋斗铸就伟业
+welcome: '郑振宁，JAVA工程师，擅长代码重构与设计、性能分析与调优等诸多精湛技艺'
+content: portfolio
 projects:
   - icon: link
     name: 中国工商银行清算风险运营管理平台
