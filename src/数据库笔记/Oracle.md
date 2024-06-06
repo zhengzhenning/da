@@ -1,3 +1,98 @@
+# SQL调优
+
+## 使用执行计划
+
+### 使用 AUTOTRACE
+
+在 `SQLPLUS `中执行：
+
+```sql
+set autot trace 
+-- 该命令会运行SQL，但不显示运行结果，会显示执行计划和统计信息。
+set autot off
+-- 关闭AUTOTRACE
+```
+
+关注几个信息：
+
+- `consistent gets` 表示逻辑读，单位是块。在进行SQL优化的时候，我们应该想方设法减少逻辑读个数。通常情况下**逻辑读越小，性能也就越好**。怎么通过逻辑读判断一个SQL还存在较大优化空间呢？如果SQL的逻辑读远远大于SQL语句中所有表的段大小之和（假设所有表都走全表扫描，表关联方式为HASH JOIN），那么该SQL就存在较大优化空间。
+- `rows processed` 表示SQL一共返回多少行数据。做SQL优化的时候最关心这部分数据，因为可以根据SQL返回的行数判断整个SQL应该是走HASH连接还是走嵌套循环。如果 `rows  processed` 很大，一般走HASH连接；如果 `rows processed` 很小，一般走嵌套循环。
+
+### 使用 EXPLAIN
+
+在客户端执行：
+
+```sql
+-- 先执行：
+explain plan for SQL语句;
+-- 再执行：
+select * from table(dbms_xplan.display); -- 普通模式
+-- 或执行：
+select * from table(dbms_xplan.display(NULL, NULL, 'advanced -projection')); -- 高级模式
+```
+
+### 使用带有 A-TIME 的执行计划
+
+在客户端执行：
+
+```sql
+alter session set statistics_level=all;
+```
+
+或者在 SQL 语句中添加 hint ：
+
+```sql
+/*+  gather_plan_statistics */
+```
+
+然后执行：
+
+```SQL
+select * from table(dbms_xplan.display_cursor(null,null,'allstats last'));
+```
+
+## 定制执行计划
+
+执行完 `EXPLAIN PLAN FOR` 后执行《SQL优化核心思想》提供的脚本：
+
+```SQL
+select case
+         when access_predicates is not null or filter_predicates is not null then
+          '*' || id
+         else
+          ' ' || id
+       end as "Id",
+       lpad(' ', level) || operation || ' ' || options "Operation",
+       object_name "Name",
+       cardinality "Rows",
+       b.size_mb "Mb",
+       case
+         when object_type like '%TABLE%' then
+          REGEXP_COUNT(a.projection, ']') || '/' || c.column_cnt
+       end as "Column",
+       access_predicates "Access",
+       filter_predicates "Filter",
+       case
+         when object_type like '%TABLE%' then
+          projection
+       end as "Projection"
+  from plan_table a,
+       (select owner, segment_name, sum(bytes / 1024 / 1024) size_mb
+          from dba_segments
+         group by owner, segment_name) b,
+       (select owner, table_name, count(*) column_cnt
+          from dba_tab_cols
+         group by owner, table_name) c
+ where a.object_owner = b.owner(+)
+   and a.object_name = b.segment_name(+)
+   and a.object_owner = c.owner(+)
+   and a.object_name = c.table_name(+)
+ start with id = 0
+connect by prior id = parent_id;
+```
+
+
+
 # 常见错误
 
 ## ORA-00972: 标识符过长
