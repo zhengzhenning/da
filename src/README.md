@@ -3,7 +3,8 @@ portfolio: true
 home: true
 icon: home
 title: 主页
-welcome: 'JAVA工程师，擅长代码重构与设计、性能分析与调优等诸多精湛技艺'
+titles: [JAVA 工程师 | 擅长业务分析与设计、代码重构与设计、性能分析与调优等]
+welcome: ''
 content: doc
 projects:
   - icon: link
