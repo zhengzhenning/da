@@ -1,4 +1,4 @@
---- 
+---
 portfolio: true
 home: true
 icon: home
@@ -16,6 +16,9 @@ projects:
     name: 安全治理——出行隐患与治理解决方案
     desc: 平台连接企业、监管、司机三端一条线，解决出行隐患与安全治理问题。系统核心功能为隐患发现、隐患分析、违章治理、治理再分析、数据分析与报告。
     link: http://182.140.209.49:8000/userCenter/login
+    medias::
+  - name: 中国工商银行清算风险运营管理平台
+  - icon: link
 
 
 
@@ -217,7 +220,7 @@ https://orika-mapper.github.io/orika-docs/  orika `对象拷贝`
 
 # 人物 👨🏻‍💻
 
-https://funglee.github.io 李峰/山东大学/教授 `系统结构`
+[https://funglee.github.io](https://funglee.github.io) 李峰/山东大学/教授 `系统结构`
 
  https://programmingisterrible.com  👨🏻‍💻 tef 博主
 
@@ -233,7 +236,7 @@ http://blog.cleancoder.com  👨🏻‍💻 Robert C.马丁（鲍勃叔叔）
 
  https://www.joelonsoftware.com 👨🏻‍💻 stack overflow创始人
 
- [https://github.com/crisxuan/bestJavaer]([https://github.com/crisxuan/bestJavaer](ticktick://ttMarkdownLink))  👨🏻‍💻程序员cxuan 
+ [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)  👨🏻‍💻程序员cxuan 
 
  https://www.bruceeckel.com  👨🏻‍💻 Bruce Eckel 《OnJava8》
 
