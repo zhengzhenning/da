@@ -95,6 +95,25 @@ connect by prior id = parent_id;
 
 # 常见错误
 
+## ORA-00054: 资源正忙, 但指定以 NOWAIT 方式获取资源, 或者超时失效
+
+执行 SQL 查看死锁会话：
+
+```sql
+SELECT s.SID, s.SERIAL#, s.USERNAME, s.MACHINE, s.PROGRAM, s.MODULE, s.ACTION
+FROM v$locked_object lo, v$session s
+WHERE lo.SESSION_ID = s.SID;
+```
+
+执行 SQL 杀死死锁会话：
+
+```sql
+ALTER SYSTEM KILL SESSION 'sid,serial#';
+-- ALTER SYSTEM KILL SESSION '242,13975';
+```
+
+
+
 ## ORA-00972: 标识符过长
 
 > ORA-00972: 标识符过长
