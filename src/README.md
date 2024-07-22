@@ -24,6 +24,28 @@ projects:
 
 footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义现代化国家而努力奋斗
 ---
+
+
+----
+
+# 项目经验
+
+::: tabs
+
+@tab:active 中国工商银行清算风险运营管理平台
+
+以智能决策引擎为底座实现对风险交易行为的准实时监控与识别，并基于事中、事后甄别实现对风险交易的有效阻断与归档管理。系统核心功能为：送检报文、模型命中、风险甄别、凭证管理、流水管理以及批量化、自动化作业等。
+
+@tab 安全治理——出行隐患与治理解决方案
+
+平台连接企业、监管、司机三端一条线，解决出行隐患与安全治理问题。系统核心功能为隐患发现、隐患分析、违章治理、治理再分析、数据分析与报告。
+
+:::
+
+----
+
+
+
 # 前言
 
 > [!important]
@@ -46,11 +68,11 @@ footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义�
 
 
 
-# 面试经验
- https://github.com/yifeikong/reverse-interview-zh  反问面试官
- [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)  Java知识点&面试 
+# 面试
 
- [https://github.com/doocs/leetcode/blob/main/solution/README.md](https://github.com/doocs/leetcode/blob/main/solution/README.md)  `面试`
+ [https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)  反问面试官
+
+ [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)  Java知识点&面试 
 
  [https://github.com/rbmonster/learning-note](https://github.com/rbmonster/learning-note)  面试  `面试`
 
@@ -62,17 +84,17 @@ footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义�
 
 [https://developer.ibm.com](https://developer.ibm.com) IBM `社区`
 
- https://github.com/doocs/leetcode  LeetCode `社区` `算法`
+ [https://github.com/doocs/leetcode]( https://github.com/doocs/leetcode)  LeetCode `社区` `算法`
 
- http://mysql.taobao.org/monthly/  alibaba MySQL内核月报 
+ [http://mysql.taobao.org/monthly/](http://mysql.taobao.org/monthly/)  alibaba MySQL内核月报 
 
- https://blog.csdn.net/vivo_tech  vivo技术
+ [https://blog.csdn.net/vivo_tech](https://blog.csdn.net/vivo_tech)  vivo技术
 
- https://developer.mozilla.org/en-US/docs/Web MDN Web技术
+ [https://developer.mozilla.org/en-US/docs/Web](https://developer.mozilla.org/en-US/docs/Web) MDN Web技术
 
  ~~https://102.alibaba.com  阿里技术 `停更`~~
 
- https://www.thoughtworks.com/zh-cn/radar  技术雷达 `趋势`
+ [https://www.thoughtworks.com/zh-cn/radar](https://www.thoughtworks.com/zh-cn/radar)  技术雷达 `趋势`
 
  [https://www.testwo.com](https://www.testwo.com)  测试窝 `社区`
 
@@ -220,7 +242,7 @@ https://orika-mapper.github.io/orika-docs/  orika `对象拷贝`
 
 # 人物 👨🏻‍💻
 
-[https://funglee.github.io](https://funglee.github.io) 李峰/山东大学/教授 `系统结构`
+https://funglee.github.io 李峰/山东大学/教授 `系统结构`
 
  https://programmingisterrible.com  👨🏻‍💻 tef 博主
 
@@ -236,17 +258,6 @@ http://blog.cleancoder.com  👨🏻‍💻 Robert C.马丁（鲍勃叔叔）
 
  https://www.joelonsoftware.com 👨🏻‍💻 stack overflow创始人
 
- [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)  👨🏻‍💻程序员cxuan 
+ [https://github.com/crisxuan/bestJavaer]([https://github.com/crisxuan/bestJavaer](ticktick://ttMarkdownLink))  👨🏻‍💻程序员cxuan 
 
  https://www.bruceeckel.com  👨🏻‍💻 Bruce Eckel 《OnJava8》
-
-
-
-
-
-
-
-  
-
-
-
