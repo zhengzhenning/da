@@ -91,6 +91,12 @@ select case
 connect by prior id = parent_id;
 ```
 
+# SQL质检
+
+# AWR报告
+
+- [AWR报告生成](https://cloud.tencent.com/developer/article/2028072)
+
 
 
 # 常见错误
@@ -112,6 +118,56 @@ ALTER SYSTEM KILL SESSION 'sid,serial#';
 -- ALTER SYSTEM KILL SESSION '242,13975';
 ```
 
+其他资源类占用查询：
+
+> 连接数
+
+```sql
+-- 连接数
+SELECT
+	COUNT( * ) 
+FROM
+	V$SESSION;
+-- 最大连接数
+select value from v$parameter where name = 'processes';
+```
+
+> 最占用CPU的前5个SQL语句
+
+```sql
+-- 最占用CPU的前5个SQL语句
+SELECT
+	* 
+FROM
+	( SELECT SQL_FULLTEXT, CPU_TIME, EXECUTIONS FROM V$SQLAREA ORDER BY CPU_TIME DESC ) 
+WHERE
+	ROWNUM <= 5;
+```
+
+> 最占用内存的前5个SQL语句
+
+```sql
+-- 最占用内存的前5个SQL语句
+SELECT
+	* 
+FROM
+	( SELECT SQL_FULLTEXT, BUFFER_GETS, EXECUTIONS FROM V$SQLAREA ORDER BY BUFFER_GETS DESC ) 
+WHERE
+	ROWNUM <= 5;
+```
+
+> 最占用磁盘I/O的前5个SQL语句
+
+```sql
+-- 最占用磁盘I/O的前5个SQL语句
+SELECT
+	* 
+FROM
+	( SELECT SQL_FULLTEXT, DISK_READS, EXECUTIONS FROM V$SQLAREA ORDER BY DISK_READS DESC ) 
+WHERE
+	ROWNUM <= 5;
+```
+
 
 
 ## ORA-00972: 标识符过长
@@ -123,6 +179,30 @@ ALTER SYSTEM KILL SESSION 'sid,serial#';
 
 
 # 服务端操作
+
+## 查看表空间使用情况
+
+```sql
+SELECT a.tablespace_name                                           "表空间名",
+       (SUM(a.total) - SUM(a.free))                                "表空间使用大小(MB)",
+       SUM(a.total)                                                "表空间总大小(MB)",
+       SUM(a.free)                                                 "表空间剩余大小(MB)",
+       round((SUM(a.total) - SUM(a.free)) / SUM(a.total) * 100, 2) "使用率 %"
+FROM (SELECT tablespace_name,
+             SUM(bytes) AS total,
+             0          AS free
+      FROM dba_data_files
+      GROUP BY tablespace_name
+      UNION ALL
+      SELECT tablespace_name,
+             0          AS total,
+             SUM(bytes) AS free
+      FROM dba_free_space
+      GROUP BY tablespace_name) a
+GROUP BY a.tablespace_name;
+```
+
+
 
 ## 查看基础信息
 
