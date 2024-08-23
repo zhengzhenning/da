@@ -72,11 +72,11 @@ footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义�
 
  [https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)  反问面试官
 
- [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)  Java知识点&面试 
+ [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) （[网站版](https://javaguide.cn)） Java知识点&面试  
 
  [https://github.com/rbmonster/learning-note](https://github.com/rbmonster/learning-note)  面试  `面试`
 
- [https://tobebetterjavaer.com](https://tobebetterjavaer.com)  沉默王二面试 
+
 
 
 
