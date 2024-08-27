@@ -12,6 +12,12 @@ category:
 # 参考
 
 - 🔗 [MySQL 难点解析](https://time.geekbang.org/dailylesson/topic/143) 
+- [MySQL官方：Example Databases](https://dev.mysql.com/doc/index-other.html) （[介绍](https://blog.csdn.net/horses/article/details/106795844)）
+  - [employee data (large dataset, includes data and test/verification suite)](https://github.com/datacharmer/test_db) [PDF](https://downloads.mysql.com/docs/employee-en.a4.pdf)
+
+- 🔗 [MySQL · 答疑解惑 · 索引过滤性太差引起CPU飙高分析](http://mysql.taobao.org/monthly/2015/10/03/)
+- 🔗 [数据库内核月报](http://mysql.taobao.org/monthly/) 📝 阿里巴巴
+- 📚 《Alibaba Java 开发手册》 📝 ch5 MySQL 数据库
 
 # 存储引擎
 
@@ -33,6 +39,18 @@ category:
 
 1. 慢查询日志
 2. 服务监控
+
+### 慢查询日志定位慢SQL
+
+1. 开启慢查询日志： mysql> set global slow_query_log = on;
+2. 设置慢查询阈值：mysql> set global long_query_time = 0.001; （时间单位：秒）
+3. 确定慢查询日志路径：mysql> show global variables like "datadir";
+4. 确定慢查询日志文件名：show global variables like "slow_query_log_file";
+5. 退出MySQL，在服务器中执行：tail -n5 /var/lib/mysql/c1978ad7fe24-slow.log
+
+![image-20240827104504130](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/image-20240827104504130.png)
+
+
 
 ## 分析技术
 
@@ -109,11 +127,49 @@ alter table test add index index2(email(6));
 
 
 
-# 参考
+# 索引详解（重点）
 
-- 🔗 [MySQL · 答疑解惑 · 索引过滤性太差引起CPU飙高分析](http://mysql.taobao.org/monthly/2015/10/03/)
-- 🔗 [数据库内核月报](http://mysql.taobao.org/monthly/) 📝 阿里巴巴
-- 📚 《Alibaba Java 开发手册》 📝 ch5 MySQL 数据库
+- 优点：在数据达到一定量时，索引可加快数据检索速度，减少IO次数
+- 缺点：需要额外的存储空间维护索引，同时，进行数据更新操作时，索引结构也会发生相应变化，继而影响SQL执行效率，此外，在表数据量不大时，索引未必优于全表扫描。
+
+主要以[这篇](https://github.com/Snailclimb/JavaGuide/blob/main/docs/database/mysql/mysql-index.md)文章为主，重点了解以下内容：
+
+1. 了解索引的优缺点
+2. 熟悉索引的底层数据结构
+3. 熟练掌握索引的分类及其应用场景
+4. 索引的最佳实践原则
+
+其中，索引底层数据结构的选型，需要搞清楚为什么是选择 B树 和 B+树 结构而非其他数据结构：
+
+- HASH结构。不支持顺序和范围查询，因为数据是离散分布的。
+
+- ###### 二叉查找树（**B**inary **S**earch **T**ree）。容易从平衡树退化成斜树（线性链表）进而导致查询效率急剧下降
+
+- 自平衡二叉查找树（**AVL**）。频繁进行旋转操作以保持平衡，增加额外开销；查询数据散列在多个节点时，会进行多次磁盘IO操作。
+
+- 红黑树。**与AVL树的区别**在于不追求严格的平衡，而是大致平衡。
+
+- **B树** & **B+树** （**多路平衡查找树**）。B树的所有节点既存放**键（KEY）**也存放**数据（DATA）**。B+树只有叶子节点存放键（KEY）和数据（DATA），其余节点只放**键（KEY）**。
+
+
+
+> B树与B+树
+
+![典型的B树](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/1*eTJjGhhJSBPUMSnF0pXdzw-20240827143118258.png)
+
+
+
+
+
+![B+树：A simple B+ tree example linking the keys 1–7 to data values d1-d7. The linked list (red) allows rapid in-order traversal. This particular tree’s branching factor is b](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/1*e3HHF3bVteXVtsWodTe4pA-20240827143146398.png)
+
+
+
+
+
+
+
+
 
 
 
@@ -136,7 +192,7 @@ alter table test add index index2(email(6));
 
 # 索引分类
 
-![索引分类](https://tva1.sinaimg.cn/large/008vxvgGgy1h87wx8lsulj30gh0fewf7.jpg)
+![008vxvgGgy1h87wx8lsulj30gh0fewf7](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h87wx8lsulj30gh0fewf7.jpg)
 
 
 
@@ -169,8 +225,6 @@ alter table test add index index2(email(6));
 
 # 事务
 
-# 参考
-
 - 🔗 [三分钟图解事务隔离级别，看一遍就懂](https://blog.51cto.com/u_15177525/4161377)
 
 
@@ -179,7 +233,9 @@ alter table test add index index2(email(6));
 
 对数据持久化时，事务保障了持久化操作满足：“要么全部执行成功，要么全部不执行”的原则。
 
-![数据库事务示意图](https://camo.githubusercontent.com/b6a7d2e7bac46c7d13204f1015e98f24ba97496dfffe3987c556aebb7d4948c3/68747470733a2f2f67756964652d626c6f672d696d616765732e6f73732d636e2d7368656e7a68656e2e616c6979756e63732e636f6d2f6769746875622f6a61766167756964652f6d7973716c2f2545362539352542302545362538442541452545352542412539332545342542412538422545352538412541312545372541342542412545362538342538462545352539422542452e706e67)
+
+
+
 
 
 
@@ -194,7 +250,9 @@ alter table test add index index2(email(6));
 
 AID是手段，C是目的，即只有保证了事务的AID后，D才能得到保障：
 
-![AID->C](https://tva1.sinaimg.cn/large/008vxvgGgy1h7r7c3ca63j309r0ab0sw.jpg)
+![AID->C](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h7r7c3ca63j309r0ab0sw.jpg)
+
+
 
 # 并发事务
 
@@ -207,15 +265,15 @@ AID是手段，C是目的，即只有保证了事务的AID后，D才能得到保
 
 > 脏读场景
 
-![image-20221127105019981](https://tva1.sinaimg.cn/large/008vxvgGgy1h8jhudskk7j30wq0iojtb.jpg)
+![脏读场景](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h8jhudskk7j30wq0iojtb.jpg)
 
 > 幻读场景
 
-![闫春林](https://tva1.sinaimg.cn/large/008vxvgGgy1h8jhv8mnyyj30tu0ioac0.jpg)
+![幻读场景](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h8jhv8mnyyj30tu0ioac0.jpg)
 
-> 不可重复读场景
+> 不可重复读场景：两次读到的数据不一致。
 
-![闫春林](https://tva1.sinaimg.cn/large/008vxvgGgy1h8jhuqhrgoj30to0i8gn4.jpg)
+![闫春林](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h8jhuqhrgoj30to0i8gn4.jpg)
 
 > 丢失修改
 
@@ -230,10 +288,12 @@ AID是手段，C是目的，即只有保证了事务的AID后，D才能得到保
 
 不同隔离级别对性能影响不同：
 
-![闫春林](https://tva1.sinaimg.cn/large/008vxvgGgy1h8ji4ny6d7j30zc0jc0ux.jpg)
+![不同隔离级别对性能影响](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h8ji4ny6d7j30zc0jc0ux.jpg)
+
+
 
 # 性能优化 *
 
 在并发场景下，事务会影响数据库的并发性能，因此在实际开发中，要注意排查事务使用的合理性。
 
-![闫春林](https://tva1.sinaimg.cn/large/008vxvgGgy1h8jiaycvgzj30tc0gmwg4.jpg)
+![闫春林](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/008vxvgGgy1h8jiaycvgzj30tc0gmwg4-20240827095748496.jpg)
