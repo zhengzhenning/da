@@ -85,8 +85,8 @@ export const zhSidebar = sidebar({
     {
       text: "工具指引",
       icon: "book",
-      prefix: "业务笔记/",
-      link: "业务笔记/",
+      prefix: "工具指引/",
+      link: "工具指引/",
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
