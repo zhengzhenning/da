@@ -72,7 +72,18 @@ export const zhSidebar = sidebar({
     },
     // 侧边栏配置 - 业务沉淀
     {
-      text: "业务沉淀",
+      text: "业务笔记",
+      icon: "book",
+      prefix: "业务笔记/",
+      link: "业务笔记/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
+    // 侧边栏配置 - 工具指引
+    {
+      text: "工具指引",
       icon: "book",
       prefix: "业务笔记/",
       link: "业务笔记/",
