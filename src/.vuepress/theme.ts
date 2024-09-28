@@ -151,6 +151,8 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
+      // 启动脚注
+      footnote: true,
 
       // install chart.js before enabling it
       // chart: true,
