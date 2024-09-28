@@ -50,7 +50,7 @@ export const zhSidebar = sidebar({
     },
     // 侧边栏配置 - 《微服务架构》
     {
-      text: "微服务架构🤔",
+      text: "微服务架构",
       icon: "book",
       prefix: "微服务架构/",
       link: "微服务架构/",
