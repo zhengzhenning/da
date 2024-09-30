@@ -1,4 +1,4 @@
 # 构建项目
 npm run docs:build
 # 启动项目
-npm run docs:dev
+npm run docs:clean-dev
