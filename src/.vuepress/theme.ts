@@ -2,6 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
+import { seoPlugin } from '@vuepress/plugin-seo' // 引入SEO插件
 
 export default hopeTheme({
 
@@ -104,6 +105,7 @@ export default hopeTheme({
   // hotReload: true,
 
   plugins: {
+    seo: true, // 开启SEO
     blog: true,
 
     // install @waline/client before enabling it
