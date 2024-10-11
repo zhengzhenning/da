@@ -1,5 +1,6 @@
 import { getDirname, path } from "vuepress/utils";
 import { defineUserConfig } from "vuepress";
+import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import theme from "./theme.js";
 
 // 必应壁纸与名言轮播

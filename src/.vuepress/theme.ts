@@ -117,7 +117,12 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","PDF"],
+      componentOptions:{
+        pdf:{
+          pdfjs:"/pdfjs-4.7.76-dist"
+        }
+      }
     },
 
     // all features are enabled for demo, only preserve features you need here
@@ -129,7 +134,7 @@ export default hopeTheme({
       align: true,
       attrs: true,
       codetabs: true,
-      component: true,
+      component: true, // 开启组件支持
       demo: true,
       figure: true,
       imgLazyload: true,

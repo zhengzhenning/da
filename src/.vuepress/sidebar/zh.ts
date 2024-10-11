@@ -4,6 +4,17 @@ export const zhSidebar = sidebar({
   "/": [
     // 主页
     "",
+    // 侧边栏配置
+    {
+      text: "行动指南",
+      icon: "book",
+      prefix: "行动指南/",
+      link: "行动指南/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
     // 侧边栏配置 - 《系统结构》
     {
       text: "系统结构",
