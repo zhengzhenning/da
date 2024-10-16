@@ -44,9 +44,20 @@ background: rgba(39, 117, 182, 0.15)
 
 # 工作日志
 
-- 2024.10.15
-  - 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT， 参考 [CAT：服务端部署](https://github.com/dianping/cat/wiki/readme_server)
-  - 
+## 241016
+
+- 继续学习研究 241015#01
+
+## 241015
+
+- 01 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT 
+
+  -  参考 [CAT：服务端部署](https://github.com/dianping/cat/wiki/readme_server)
+  - 部署成本较高，参考  [美团点评CAT部署了各种环境不下10次，遇到的坑整理l](https://www.cnblogs.com/jingch/p/17141552.html)
+
+  
+
+  
 
 
 
