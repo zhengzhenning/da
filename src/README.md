@@ -7,6 +7,10 @@ titles: [JAVA 工程师 | 擅长业务分析与设计、代码重构与设计、
 welcome: ''
 content: doc
 footer: 高举中国特色社会主义伟大旗帜 为全面建设社会主义现代化国家而努力奋斗
+head:
+  - - meta
+    - name: 简历
+    - content: 郑振宁简历
 ---
 
 
@@ -43,6 +47,10 @@ background: rgba(39, 117, 182, 0.15)
 
 
 # 工作日志
+
+## 241025
+
+- 研究 DA 项目[搜索引擎增强](https://ecosystem.vuejs.press/zh/plugins/seo/seo/guide.html)
 
 ## 241016
 
