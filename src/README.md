@@ -48,6 +48,150 @@ highlights:
         icon: <HopeIcon icon="src/.vuepress/public/assets/images/logo-volco.png" /> 
         details: 2020年成长新锐奖
 
+
+
+  - header: 技术图谱 / 框架篇
+    description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: Spring
+        icon: code
+        details: 
+        link: 
+
+      - title: SpringMVC
+        icon: code
+        details: 
+        link: 
+
+      - title: SpringData
+        icon: code
+        details: 
+        link: 
+
+      - title: SpringBoot
+        icon: table-columns
+        details: 
+        link: 
+
+      - title: SpringCloud
+        icon: table-columns
+        details: 
+        link: 
+
+  - header: 技术图谱 / 组件篇
+    description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: Activiti7
+        icon: code
+        details:
+        link:
+      - title: RabbitMQ
+        icon: code
+        details:
+        link:
+      - title: Kafka
+        icon: code
+        details:
+        link:
+      - title: EhCache(2.x / 3.x)
+        icon: code
+        details:
+        link:
+      - title: Caffeine Cache
+        icon: code
+        details:
+        link:
+      - title: Redis
+        icon: code
+        details:
+        link:
+      - title: MongoDB
+        icon: code
+        details:
+        link:
+      - title: InfuxDB
+        icon: code
+        details:
+        link:
+      - title: GuassDB
+        icon: code
+        details:
+        link:
+      - title: Oracle
+        icon: code
+        details:
+        link:
+      - title: MySQL
+        icon: code
+        details:
+        link:
+          
+  - header: 技术图谱 / 工具篇
+    description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: IntelliJ IDEA
+        icon: code
+        details:
+        link:
+      - title: Maven
+        icon: code
+        details:
+        link:
+      - title: Grade
+        icon: code
+        details:
+        link:
+      - title: Docker
+        icon: code
+        details:
+        link:
+      - title: Git | SVN
+        icon: code
+        details:
+        link:
+      - title: Tomcat 
+        icon: code
+        details:
+        link:
+      - title: Navicat Premium
+        icon: code
+        details:
+        link:   
+      - title: Kafka Tool
+        icon: code
+        details:
+        link:
+      - title: Postman
+        icon: code
+        details:
+        link:
+      - title: Apifox
+        icon: code
+        details:
+        link:
+      - title: Rmd
+        icon: code
+        details:
+        link:
+
   - header: 技术图谱 / 语言篇
     description: 重磅！从业以来习得了不少技术，这些技术能为您创造成吨的价值。
     image: /assets/image/markdown.svg
@@ -59,134 +203,19 @@ highlights:
     features:
       - title: Java
         icon: code
-        details: 一种多平台、面向对象且以网络为中心的语言
+        details: 一种多平台、面向对象且以网络为中心的高级编程语言，具有强大的跨平台性和丰富的类库，广泛应用于企业级应用开发、安卓应用开发等众多领域。
 
       - title: HTML/CSS 
         icon: code
-        details: 用样式装饰 Markdown 内容
+        details: HTML 用于构建网页的结构，CSS 用于控制网页的样式，二者配合可以将普通的文本内容渲染成美观、具有交互性的网页。
 
       - title: JavaScript
         icon: code
-        details: GFM 风格的警告容器
+        details: 一种动态的、弱类型的脚本语言，用于为网页添加交互功能，而不是作为 GFM 风格的警告容器，比如可以实现表单验证、动画效果等
 
       - title: Vue
         icon: table-columns
-        details: 使用选项卡对相似内容进行分组
-
-      - title: 代码组
-        icon: code
-        details: 使用选项卡对相似代码进行分组
-        link: ./guide/markdown/code/code-tabs.html
-
-      - title: 自定义对齐
-        icon: align-center
-        details: Markdown 中对内容进行自定义对齐
-        link: ./guide/markdown/stylize/align.html
-
-      - title: 自定义属性
-        icon: code
-        details: 为 Markdown 元素添加属性
-        link: ./guide/markdown/stylize/attrs.html
-
-      - title: 上下角标
-        icon: superscript
-        details: 轻松在 Markdown 中添加上下角标
-        link: ./guide/markdown/grammar/sup-sub.html
-
-      - title: 脚注
-        icon: quote-left
-        details: 在内容中插入脚注
-        link: ./guide/markdown/content/footnote.html
-
-      - title: 标记
-        icon: highlighter
-        details: 标记并高亮内容
-        link: ./guide/markdown/stylize/mark.html
-
-      - title: 剧透
-        icon: eraser
-        details: 添加剧透标记支持
-        link: ./guide/markdown/stylize/spoiler.html
-
-      - title: 任务列表
-        icon: square-check
-        details: 轻松插入任务列表
-        link: ./guide/markdown/grammar/tasklist.html
-
-      - title: 图片语法
-        icon: image
-        details: 使用改进的语法指定图片大小与颜色模式
-        link: ./guide/markdown/grammar/image.html
-
-      - title: 组件支持
-        icon: puzzle-piece
-        details: 在 Markdown 中轻松插入组件
-        link: ./guide/component/grammar.html
-
-      - title: 组件
-        icon: puzzle-piece
-        details: 开箱即用的常用组件
-        link: ./guide/component/built-in.html
-
-      - title: Chart.js 支持
-        icon: chart-simple
-        details: 在 Markdown 中展示 Chart.js 图表
-        link: ./guide/markdown/chart/chartjs.html
-
-      - title: 流程图支持
-        icon: route
-        details: 在 Markdown 中直接写出流程图
-        link: ./guide/markdown/chart/flowchart.html
-
-      - title: Mermaid 支持
-        icon: chart-pie
-        details: 在 Markdown 中添加 Mermaid 图例
-        link: ./guide/markdown/chart/mermaid.html
-
-      - title: Plantuml 支持
-        icon: diagram-project
-        details: 在 Markdown 中添加 Plant UML 图表
-        link: ./guide/markdown/chart/plantuml.html
-
-      - title: Tex 支持
-        icon: square-root-variable
-        details: Markdown 现在也可以支持 Tex 语法以显示公式
-        link: ./guide/markdown/grammar/tex.html
-
-      - title: 导入文件支持
-        icon: fab fa-markdown
-        details: 将你的文档分段，并在 Markdown 中导入
-        link: ./guide/markdown/content/include.html
-
-      - title: 交互演示支持
-        icon: code
-        details: 你可以在 Markdown 中添加交互演示
-        link: ./guide/markdown/code/playground.html
-
-      - title: Kotlin 交互演示支持
-        icon: fab fa-kickstarter
-        details: 响应式的 Kotlin 演示
-        link: ./guide/markdown/code/kotlin-playground.html
-
-      - title: Vue 交互演示支持
-        icon: fab fa-vuejs
-        details: 在交互演示中展示 Vue 组件
-        link: ./guide/markdown/code/vue-playground.html
-
-      - title: Sandpack 交互演示支持
-        icon: code
-        details: Sandpack 驱动的实时的编码环境
-        link: ./guide/markdown/code/sandpack.html
-
-      - title: 代码案例支持
-        icon: laptop-code
-        details: 你可以很方便的插入代码案例
-        link: ./guide/markdown/code/demo.html
-
-      - title: 幻灯片支持
-        icon: person-chalkboard
-        details: 通过 Reveal.js 在 Markdown 中插入幻灯片
-        link: ./guide/markdown/content/revealjs.html
+        details: 一套用于构建用户界面的渐进式 JavaScript 框架，可以方便地创建交互式的 Web 界面，通过组件化的方式高效地开发复杂的单页应用
 
   - header: 可定制的页面
     description: 完整无障碍支持的可定制外观
@@ -240,34 +269,6 @@ highlights:
         details: RTL 布局，打印支持，全局按钮等
         link: ./guide/interface/others.html
 
-
-
-  - header: 博客
-    description: 通过主题创建个人博客
-    image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: 博客功能
-        icon: blog
-        details: 通过文章的日期、标签和分类展示文章
-        link: ./guide/blog/intro.html
-
-      - title: 博客主页
-        icon: home
-        details: 全新博客主页
-        link: ./guide/blog/home.html
-
-      - title: 博主信息
-        icon: home
-        details: 自定义名称、头像、座右铭和社交媒体链接
-        link: ./guide/blog/blogger.html
-
-      - title: 时间线
-        icon: home
-        details: 在时间线中浏览和通读博文
-        link: ./guide/blog/timeline.html
-
   - header: 高级
     description: 增强站点与用户体验的高级功能
     image: /assets/image/advanced.svg
@@ -295,5 +296,5 @@ highlights:
         link: ./guide/advanced/pwa.html
 
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国建设、民族复兴伟业奋斗终身
 ---
