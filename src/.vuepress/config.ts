@@ -9,6 +9,9 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/yibu_zzn/",
 
+  // 引入图标资源
+  iconAssets: "fontawesome",
+
   locales: {
     "/": {
       lang: "zh-CN",
