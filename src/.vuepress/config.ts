@@ -9,13 +9,10 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/yibu_zzn/",
 
-  // 引入图标资源
-  iconAssets: "fontawesome",
-
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "郑振宁的数字资产中心",
+      title: "郑振宁的数字资产园区",
       description: "数字资产",
     },
   },

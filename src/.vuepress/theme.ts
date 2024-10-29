@@ -14,7 +14,13 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  // 引入图标资源
+  iconAssets: ["fontawesome-with-brands",
+    // 引入自己的图标资源库，注意：每次 DA-ICON 项目资源有更新都需要更新下面的配置 →  https://www.iconfont.cn/
+    "//at.alicdn.com/t/c/font_4726896_uh9phodntn7.css"
+  ],
+  // 设置自己的图标资源库前缀
+  iconPrefix:"iconfont icon-",
 
   // 网站图标
   logo: "/avatar.jpg",

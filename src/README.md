@@ -30,7 +30,25 @@ highlights:
       - title: 强大的文档沉淀能力，助力您沉淀有形的数字资产
       - title: 无与伦比的编能力，促进企业高效运转，快速更迭血液，持续迸发刚劲强韧的生命力。
 
-  - header: 能力图谱 Capability Map
+  - header: 业绩表现
+    image: /assets/image/features.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    features:
+      - title: 工商银行（外源)
+        icon: ICBC
+        details: 2023年上半年开发卓越奖 / 
+                 2023年四季度 A 级绩效评定
+
+      - title: 云南南天电子信息产业股份有限公司北京分公司
+        icon: comment-dots
+        details: 2023年工商银行服务之星 
+
+      - title: 成都网阔信息技术股份有限公司 
+        icon: <HopeIcon icon="src/.vuepress/public/assets/images/logo-volco.png" /> 
+        details: 2020年成长新锐奖
+
+  - header: 技术图谱 / 语言篇
     description: 重磅！从业以来习得了不少技术，这些技术能为您创造成吨的价值。
     image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
@@ -42,22 +60,18 @@ highlights:
       - title: Java
         icon: code
         details: 一种多平台、面向对象且以网络为中心的语言
-        link: ./guide/markdown/others.html#link-check
 
-      - title: 提示容器
-        icon: box-archive
+      - title: HTML/CSS 
+        icon: code
         details: 用样式装饰 Markdown 内容
-        link: ./guide/markdown/stylize/hint.html
 
-      - title: GFM 警告
-        icon: bell
+      - title: JavaScript
+        icon: code
         details: GFM 风格的警告容器
-        link: ./guide/markdown/stylize/alert.html
 
-      - title: 选项卡
+      - title: Vue
         icon: table-columns
         details: 使用选项卡对相似内容进行分组
-        link: ./guide/markdown/content/tabs.html
 
       - title: 代码组
         icon: code
@@ -226,45 +240,7 @@ highlights:
         details: RTL 布局，打印支持，全局按钮等
         link: ./guide/interface/others.html
 
-  - header: 新功能
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
-    features:
-      - title: 目录页面
-        icon: network-wired
-        details: 自动生成目录页以及开箱即用的目录组件
-        link: ./guide/feature/catalog.html
 
-      - title: 浏览量与评论
-        icon: comment-dots
-        details: 配合 4 个评论服务开启阅读量统计与评论支持
-        link: ./guide/feature/comment.html
-
-      - title: 文章信息
-        icon: circle-info
-        details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
-        link: ./guide/feature/page-info.html
-
-      - title: 文章加密
-        icon: lock
-        details: 你可以为你的特定页面或特定目录进行加密，以便陌生人不能随意访问它们
-        link: ./guide/feature/encrypt.html
-
-      - title: 搜索支持
-        icon: search
-        details: 支持 docsearch 和基于客户端的搜索
-        link: ./guide/feature/search.html
-
-      - title: 代码块
-        icon: code
-        details: 自定义代码块主题、行号、行高亮、复制按钮等
-        link: ./guide/feature/code-block.html
-
-      - title: 图片预览
-        icon: image
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: ./guide/feature/photo-swipe.html
 
   - header: 博客
     description: 通过主题创建个人博客
