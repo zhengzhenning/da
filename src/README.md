@@ -8,15 +8,15 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁
-tagline: 👨🏻‍💻计算机科学与技术 后端开发 2017年-至今
+tagline: 👨🏻‍💻 计算机科学与技术 后端开发 2017年-至今
 actions:
   - text: Github
     link: https://github.com/zhengzhenning
-    icon: link
+    icon: icon-github
     type: primary
 
   - text: Gitee
-    icon: link
+    icon: icon-Gitee
     link: https://gitee.com/yibu_zzn
 
 
@@ -35,29 +35,26 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
-      - title: 工商银行（外源)
-        icon: ICBC
+      - title: 中国工商银行（外源)
+        icon: icon-ICBC
         details: 2023年上半年开发卓越奖 / 
                  2023年四季度 A 级绩效评定
 
       - title: 云南南天电子信息产业股份有限公司北京分公司
-        icon: comment-dots
+        icon: icon-shangshigongsi
         details: 2023年工商银行服务之星 
 
       - title: 成都网阔信息技术股份有限公司 
-        icon: <HopeIcon icon="src/.vuepress/public/assets/images/logo-volco.png" /> 
+        icon: icon-shangshigongsi
         details: 2020年成长新锐奖
 
 
 
   - header: 技术图谱 / 框架篇
     description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: Spring
         icon: code
@@ -83,16 +80,29 @@ highlights:
         icon: table-columns
         details: 
         link: 
-
+          
+      - title: Spring Cloud Gateway
+        icon: table-columns
+        details:
+        link:
   - header: 技术图谱 / 组件篇
     description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
+      - title: Promethues
+        icon: code
+        details: 
+        link:
+      - title: CAT
+        icon: code
+        details:
+        link:
+      - title: Nacos
+        icon: code
+        details:
+        link:
       - title: Activiti7
         icon: code
         details:
@@ -140,12 +150,9 @@ highlights:
           
   - header: 技术图谱 / 工具篇
     description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: IntelliJ IDEA
         icon: code
@@ -194,12 +201,9 @@ highlights:
 
   - header: 技术图谱 / 语言篇
     description: 重磅！从业以来习得了不少技术，这些技术能为您创造成吨的价值。
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
       - title: Java
         icon: code
@@ -268,32 +272,6 @@ highlights:
         icon: ellipsis
         details: RTL 布局，打印支持，全局按钮等
         link: ./guide/interface/others.html
-
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
-    image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
-    highlights:
-      - title: SEO 增强
-        icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: ./guide/advanced/seo.html
-
-      - title: Sitemap
-        icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: ./guide/advanced/sitemap.html
-
-      - title: Feed 支持
-        icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: ./guide/advanced/feed.html
-
-      - title: PWA 支持
-        icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: ./guide/advanced/pwa.html
 
 copyright: false
 footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国建设、民族复兴伟业奋斗终身
