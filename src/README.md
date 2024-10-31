@@ -276,3 +276,30 @@ highlights:
 copyright: false
 footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国建设、民族复兴伟业奋斗终身
 ---
+
+
+
+---
+
+
+
+# 工作日志
+
+## 241029
+
+- [在虚拟机CentOS中安装Docker](https://www.cnblogs.com/kohler21/p/18359181)
+
+## 241025
+
+- 研究 DA 项目[搜索引擎增强](https://ecosystem.vuejs.press/zh/plugins/seo/seo/guide.html)
+
+## 241016
+
+- 继续学习研究 241015#01
+
+## 241015
+
+- 01 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT 
+
+  -  参考 [CAT：服务端部署](https://github.com/dianping/cat/wiki/readme_server)
+  -  部署成本较高，参考  [美团点评CAT部署了各种环境不下10次，遇到的坑整理l](
