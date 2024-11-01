@@ -37,16 +37,20 @@ highlights:
     features:
       - title: 中国工商银行（外源)
         icon: icon-ICBC
-        details: 🏆 2023年上半年开发卓越奖 
-                 🏆 2023年四季度 A 级绩效评定
+        details: 
+          🏆 2023年上半年开发卓越奖 </br>
+          🏆 2023年第4季度绩效评定A级 </br>
+          🏆 2023年第3季度绩效评定A级 </br>
+          🏆 2023年第2季度绩效评定A级 </br>
+          🏆 2023年第1季度绩效评定A级 </br>             
 
       - title: 云南南天电子信息产业股份有限公司北京分公司
         icon: icon-shangshigongsi
-        details: 🏆 2023年工商银行服务之星 
+        details: 🏆 2023年工商银行服务之星 </br>
 
       - title: 成都网阔信息技术股份有限公司 
         icon: icon-shangshigongsi
-        details: 🏆 2020年成长新锐奖
+        details: 🏆 2020年成长新锐奖 </br>
 
 
 
@@ -96,9 +100,9 @@ highlights:
         details: 
         link:
       - title: CAT
-        icon: code
-        details:
-        link:
+        icon: icon-jiankonggaojing
+        details: CAT 是基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
+        link: https://github.com/dianping/cat
       - title: Nacos
         icon: code
         details:
@@ -264,27 +268,28 @@ footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国�
 
 
 
----
-
 
 
 # 工作日志
 
-## 241029
+## 2024
+
+- 
+
+- [https://tech.meituan.com/tags/cat.html](https://tech.meituan.com/tags/cat.html)
 
 - [在虚拟机CentOS中安装Docker](https://www.cnblogs.com/kohler21/p/18359181)
 
-## 241025
+- 探索 DA 项目[搜索引擎增强](https://ecosystem.vuejs.press/zh/plugins/seo/seo/guide.html)
 
-- 研究 DA 项目[搜索引擎增强](https://ecosystem.vuejs.press/zh/plugins/seo/seo/guide.html)
-
-## 241016
-
-- 继续学习研究 241015#01
-
-## 241015
-
-- 01 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT 
+- 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT 
 
   -  参考 [CAT：服务端部署](https://github.com/dianping/cat/wiki/readme_server)
-  -  部署成本较高，参考  [美团点评CAT部署了各种环境不下10次，遇到的坑整理l](
+     -  [centos7下安装jdk7](https://www.cnblogs.com/xhkj/p/6545111.html)
+     -  [Centos 8 安装 Maven 3.6.3](https://blog.csdn.net/peng2hui1314/article/details/127974916)
+     -  [Linux - centos7.X安装tomcat8](https://cloud.tencent.com/developer/article/1640869) 
+     -  [分布式监控CAT服务端的本地部署 ](https://www.cnblogs.com/heihaozi/p/11762894.html) 
+     
+  - 部署成本较高，参考  [美团点评CAT部署了各种环境不下10次，遇到的坑整理l](https://www.cnblogs.com/jingch/p/17141552.html) .
+  
+    
