@@ -61,94 +61,94 @@ highlights:
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: Spring
-        icon: code
+        icon: icon-spring_
         details: 
         link: 
 
       - title: SpringMVC
-        icon: code
+        icon: icon-SPRINGMVC
         details: 
         link: 
 
       - title: SpringData
-        icon: code
+        icon: icon-database
         details: 
         link: 
 
       - title: SpringBoot
-        icon: table-columns
+        icon: icon-SPRINGMVC
         details: 
         link: 
 
       - title: SpringCloud
-        icon: table-columns
+        icon: icon-SpringCloud
         details: 
         link: 
           
-      - title: Spring Cloud Gateway
-        icon: table-columns
+      - title: SpringCloud Gateway
+        icon: icon-gateway
         details:
         link:
   - header: 技术图谱 / 组件篇
-    description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
+    description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
       - title: Promethues
-        icon: code
-        details: 
-        link:
+        icon: icon-promethues
+        details: 开源的监控和警报工具套件，适用于微服务、容器和动态计算环境，在 Kubernetes 等容器编排平台的社区中非常流行。
+        link: https://prometheus.io/
       - title: CAT
         icon: icon-jiankonggaojing
-        details: CAT 是基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
+        details: 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
         link: https://github.com/dianping/cat
       - title: Nacos
-        icon: code
-        details:
+        icon: icon-nacos
+        details: 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
       - title: Activiti7
-        icon: code
-        details:
-        link:
+        icon: icon-gongzuoliuquanjugongxiang
+        details: 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
+        link: https://www.activiti.org/
       - title: RabbitMQ
-        icon: code
-        details:
-        link:
+        icon: icon-rabbitmq
+        details: 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
+        link: https://www.rabbitmq.com/
       - title: Kafka
-        icon: code
-        details:
-        link:
+        icon: icon-apachekafka
+        details: 一个开源分布式事件流平台，数千家公司使用它来实现高性能数据管道、流分析、数据集成和关键任务应用程序。
+        link: https://kafka.apache.org/
       - title: EhCache(2.x / 3.x)
-        icon: code
-        details:
-        link:
+        icon: icon-Ehcache
+        details: 是使用最广泛的基于 Java 的缓存，因为它功能强大、久经考验、功能齐全，并且可与其他流行的库和框架集成。
+        link: https://www.ehcache.org/
       - title: Caffeine Cache
-        icon: code
-        details:
-        link:
+        icon: icon-zhongzi
+        details: 一款高性能、接近最佳的缓存库。
+        link: https://github.com/ben-manes/caffeine
       - title: Redis
-        icon: code
-        details:
-        link:
+        icon: icon-redis
+        details: 一个持久存储在磁盘上的内存数据库。数据模型是键值，但支持多种不同类型的值：字符串、列表、集合、有序集合、哈希、流、HyperLogLog、位图。
+        link: https://redis.io/
       - title: MongoDB
-        icon: code
-        details:
-        link:
+        icon: icon-mongodb_
+        details:  世界上最流行的文档数据库现在也是世界上功能最全面的开发者数据平台。
+        link: https://www.mongodb.com/zh-cn
       - title: InfuxDB
-        icon: code
+        icon: icon-influxdb
         details:
         link:
       - title: GuassDB
-        icon: code
+        icon: icon-zu4441
         details:
         link:
       - title: Oracle
-        icon: code
+        icon: icon-oracle
         details:
         link:
       - title: MySQL
-        icon: code
+        icon: icon-mysql
         details:
         link:
           
@@ -233,7 +233,7 @@ highlights:
     highlights:
       - title: 云南南天电子信息产业股份有限公司（股票代码：000948）
         icon: circle-half-stroke
-        details: 南天电子信息产业股份有限公司 （简称南天电子信息），是专业的数字化服务提供商。公司具有三十多年建设金融行业和国家部分重点行业信息化工程的丰富经验，以软件业务、集成服务业务、产品服务业务、智慧城市业务、创新业务等五大板块业务为主体，积极布局云业务和数据智能业务，发展智慧党建和智慧教育业务，为客户提供贯穿IT建设全生命周期的“一站式”数字化服务。1999年10月14日，南天信息在深圳证券交易所挂牌上市，股票代码000948。
+        details: 专业的数字化服务提供商。公司具有三十多年建设金融行业和国家部分重点行业信息化工程的丰富经验，以软件业务、集成服务业务、产品服务业务、智慧城市业务、创新业务等五大板块业务为主体，积极布局云业务和数据智能业务，发展智慧党建和智慧教育业务，为客户提供贯穿IT建设全生命周期的“一站式”数字化服务。
         link: https://www.nantian.com.cn/about/intro.html
 
       - title: 成都网阔信息技术股份有限公司（股票代码：430479）
@@ -243,7 +243,7 @@ highlights:
 
       - title: 国信优易数据股份有限公司
         icon: ellipsis
-        details: 国信优易数据股份有限公司由国家信息中心于2015年发起成立的科技平台型企业，拥有大数据、人工智能、区块链、物联网等新一代信息技术，专注于大数据基础软件产品研发与技术服务优化，面向政府现代化治理、城市指挥运行和企业数字化转型，提供基于数据操作系统DataOS的一站式领域解决方案和数字化在线服务。
+        details: 由国家信息中心于2015年发起成立的科技平台型企业，拥有大数据、人工智能、区块链、物联网等新一代信息技术，专注于大数据基础软件产品研发与技术服务优化，面向政府现代化治理、城市指挥运行和企业数字化转型，提供基于数据操作系统DataOS的一站式领域解决方案和数字化在线服务。
         link: https://youyishuju.com/
 
   - header: 教育经历
