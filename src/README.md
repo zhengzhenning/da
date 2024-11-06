@@ -63,7 +63,7 @@ highlights:
       - title: Spring
         icon: icon-spring_
         details: 
-        link: 
+        link: https://spring.io/
 
       - title: SpringMVC
         icon: icon-SPRINGMVC
@@ -151,6 +151,26 @@ highlights:
         icon: icon-mysql
         details:
         link:
+      - title: JUnit4
+        icon: 
+        details:
+        link: https://junit.org/junit4/
+      - title: JUnit5
+        icon:
+        details:
+        link: https://junit.org/junit5/
+      - title: Mockito
+        icon: https://site.mockito.org/
+        details:
+        link:
+      - title: Powermock
+        icon:
+        details:
+        link:
+      - title: Orika
+        icon:
+        details:
+        link: https://orika-mapper.github.io/orika-docs/      
           
   - header: 技术图谱 / 工具篇
     description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
