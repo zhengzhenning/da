@@ -1,19 +1,4 @@
 
-# 面试
-
-[https://github.com/yifeikong/reverse-interview-zh](https://github.com/yifeikong/reverse-interview-zh)  反问面试官
-
-[https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) （[网站版](https://javaguide.cn)） Java知识点&面试
-
-[https://github.com/rbmonster/learning-note](https://github.com/rbmonster/learning-note)  面试  `面试`
-
-
-
-
-
-# 社区
-
-
 
 
 [https://blog.csdn.net/vivo_tech](https://blog.csdn.net/vivo_tech)  vivo技术
@@ -22,22 +7,12 @@
 ~~https://102.alibaba.com  阿里技术 `停更`~~
 
 
-[https://github.com/alibaba/testable-mock]([https://github.com/alibaba/testable-mock](ticktick://ttMarkdownLink))  TestableMock测试 `测试`
-
-[https://github.com/yangyubo/zh-unit-testing-guidelines]([https://github.com/yangyubo/zh-unit-testing-guidelines](ticktick://ttMarkdownLink))  单元测试准则 `测试`
-
-
-# 文档
-
-
-
 
 
 
 
 https://github.com/binhnguyennus/awesome-scalability 系统性能 `性能`
 
-[https://refactoringguru.cn](https://refactoringguru.cn)  重构 `设计`
 
 
 https://github.com/binhnguyennus/awesome-scalability  可扩展、高性能 `性能`

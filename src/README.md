@@ -254,77 +254,10 @@ highlights:
         details:
         link:
           
-      - title: Rmd
+      - title: Draw.io
         icon: code
-        details:
-        link:
-
-  - header: 技能图谱 / 基础理论篇
-    description:  
-    image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
-    features:
-      - title: 计算机系统架构
-        icon: 
-        details: 中国山东大学李峰教授
-        link: https://funglee.github.io/csa/csa.html
-
-      - title: 重构与设计模式
-        icon:
-        details: 从整体了解各种代码重构技巧和设计模式， 学习它们之间如何交叉、 合作和关联。
-        link: https://refactoringguru.cn/
-
-      - title: 重构 改善既有代码的设计（第2版）
-        icon: 用Java实现的设计模式
-        details: Martin Fowler
-        link: https://book-refactoring2.ifmicro.com/
-
-      - title: 设计模式(Start:90k+)
-        icon:
-        details: Martin Fowler
-        link: https://github.com/iluwatar/java-design-patterns
-        
-      - title: 算法与数据结构(Start:60.1k+)
-        icon: code
-        details: 基于 Java 的算法实现
-        link: https://github.com/TheAlgorithms/Java?tab=readme-ov-file
-
-      - title: 算法与数据结构（Star:17.3k+）
-        icon: code
-        details: 
-        link: https://github.com/williamfiset/Algorithms
-
-      - title: Java
-        icon: table-columns
-        details: 针对 JDK 8 编写的
-        link: https://docs.oracle.com/javase/tutorial/
-        
-      - title: Effective Java(3rd)
-        icon: 
-        details: Effective Java（第3版）
-        link: https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual
-        
-      - title: Effective Java(3rd) Source Code
-        icon:
-        details: Effective Java（第3版）源码
-        link: https://github.com/jbloch/effective-java-3e-source-code
-        
-      - title: Java8InAction 源码
-        icon:
-        details:  aq
-        link: https://github.com/java8/Java8InAction
-        
-      - title: MDN Web Docs
-        icon: code
-        details: 面向开发者的 Web 技术
-        link: https://developer.mozilla.org/zh-CN/docs/Web
-
-      - title: 数据库内核月报（淘宝）
-        icon: table-columns
-        details: 数据库内核月报
-        link: http://mysql.taobao.org/monthly/
-
+        details: 画图工具
+        link: https://app.diagrams.net/
 
   - header: 工作经历
     description: 伟大企业引领伟大事业，伟大事业始于爱岗敬岗
@@ -366,3 +299,29 @@ highlights:
 copyright: true
 footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国建设、民族复兴伟业奋斗终身
 ---
+
+# 理论基础
+- Java
+  - [https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/)
+  - [Effective Java（第3版）](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual) [源码](https://github.com/jbloch/effective-java-3e-source-code) 
+  - Java8InAction [源码](https://github.com/java8/Java8InAction) 
+  
+- Web 技术
+  - [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web)
+  
+- 算法与数据结构
+  - [https://github.com/TheAlgorithms/Java?tab=readme-ov-file](https://github.com/TheAlgorithms/Java?tab=readme-ov-file) 基于 Java 的算法实现(Start:60k+)
+  - [https://github.com/williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法与数据结构（Star:17.3k+）
+  
+- 计算机体系结构
+  - [https://funglee.github.io/csa/csa.html ](https://funglee.github.io/csa/csa.html) `中国山东大学李峰教授`
+  
+- 数据库
+  - [数据库内核月报（淘宝）](http://mysql.taobao.org/monthly/)
+  
+- 代码质量
+  - [设计模式(Start：90k+)](https://github.com/iluwatar/java-design-patterns)
+  - [重构 改善既有代码的设计（第2版）Martin Fowler](https://book-refactoring2.ifmicro.com/) 
+  -  [https://refactoringguru.cn/](https://refactoringguru.cn/) 重构与设计模式
+  
+  
