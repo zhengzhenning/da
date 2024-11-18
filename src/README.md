@@ -3,8 +3,8 @@ containerClass: home
 home: true
 title: 主页
 icon: home
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁
@@ -23,8 +23,8 @@ actions:
 highlights:
   - header: 核心竞争力
     image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: 强大的业务分析能力，助力您加速链接与客户的价值密度
       - title: 强大的文档沉淀能力，助力您沉淀有形的数字资产
@@ -32,8 +32,8 @@ highlights:
 
   - header: 业绩表现
     image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: 中国工商银行（外源)
         icon: icon-ICBC
