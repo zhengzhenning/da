@@ -1,10 +1,10 @@
 ---
 containerClass: home
 home: true
-title: 主页
+title: 简历
 icon: home
-bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁
@@ -52,9 +52,22 @@ highlights:
         icon: icon-shangshigongsi
         details: 🏆 2020年成长新锐奖 </br>
 
+  - header: 技能图谱 / 架构篇
+    description: 
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    features:
+      - title: 微服务架构全景图
+        icon: 
+        details: 阿里生态下的微服务架构全景图
+        link: https://start.aliyun.com/ecosystem.html
+      - title: 凤凰架构
+        icon:
+        details: 构建可靠的大型分布式系统
+        link: http://icyfenix.cn
 
-
-  - header: 技术图谱 / 框架篇
+  - header: 技能图谱 / 框架篇
     description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
@@ -62,34 +75,30 @@ highlights:
     features:
       - title: Spring
         icon: icon-spring_
-        details: 
+        details: 使 Java 编程对每个人来说都更快、更轻松、更安全。
         link: https://spring.io/
 
       - title: SpringMVC
         icon: icon-SPRINGMVC
-        details: 
-        link: 
+        details: 用于构建 Web 应用程序的 Java 框架。
+        link: https://docs.spring.io/spring-framework/reference/web/webmvc.html
 
       - title: SpringData
         icon: icon-database
-        details: 
-        link: 
+        details: 提供一个熟悉、一致的基于 Spring 的数据访问编程模型，同时仍然保留底层数据存储的特殊特性。
+        link: https://spring.io/projects/spring-data
 
       - title: SpringBoot
         icon: icon-SPRINGMVC
-        details: 
-        link: 
+        details: 轻松创建独立的、基于 Spring 的生产级应用程序
+        link: https://spring.io/projects/spring-boot
 
       - title: SpringCloud
         icon: icon-SpringCloud
-        details: 
-        link: 
+        details: 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
+        link: https://spring.io/projects/spring-cloud
           
-      - title: SpringCloud Gateway
-        icon: icon-gateway
-        details:
-        link:
-  - header: 技术图谱 / 组件篇
+  - header: 技能图谱 / 组件篇
     description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
@@ -107,7 +116,7 @@ highlights:
         icon: icon-nacos
         details: 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
-      - title: Activiti7
+      - title: Activiti7  <code>工作流</code>
         icon: icon-gongzuoliuquanjugongxiang
         details: 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
         link: https://www.activiti.org/
@@ -151,6 +160,18 @@ highlights:
         icon: icon-mysql
         details:
         link:
+      - title: MyBatis
+        icon: icon-mysql
+        details:
+        link: https://mybatis.org/mybatis-3/zh_CN/index.html
+      - title: MyBatis-Plus
+        icon: icon-mysql
+        details:
+        link: https://baomidou.com/
+      - title: Hibernate
+        icon: icon-mysql
+        details:
+        link: https://hibernate.org/
       - title: JUnit4
         icon: 
         details:
@@ -166,13 +187,13 @@ highlights:
       - title: Powermock
         icon:
         details:
-        link:
+        link: https://github.com/powermock/powermock
       - title: Orika
         icon:
         details:
         link: https://orika-mapper.github.io/orika-docs/      
           
-  - header: 技术图谱 / 工具篇
+  - header: 技能图谱 / 工具篇
     description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
@@ -182,68 +203,128 @@ highlights:
         icon: code
         details:
         link:
+          
       - title: Maven
         icon: code
         details:
         link:
-      - title: Grade
+          
+      - title: Gradle
         icon: code
         details:
         link:
+          
       - title: Docker
         icon: code
         details:
         link:
+          
       - title: Git | SVN
         icon: code
         details:
         link:
+          
       - title: Tomcat 
         icon: code
         details:
         link:
+          
       - title: Navicat Premium
         icon: code
         details:
         link:   
+          
       - title: Kafka Tool
         icon: code
         details:
         link:
+          
       - title: Postman
         icon: code
         details:
         link:
+          
       - title: Apifox
         icon: code
         details:
         link:
+
+      - title: Rmd
+        icon: code
+        details:
+        link:
+          
       - title: Rmd
         icon: code
         details:
         link:
 
-  - header: 技术图谱 / 语言篇
-    description: 重磅！从业以来习得了不少技术，这些技术能为您创造成吨的价值。
+  - header: 技能图谱 / 基础理论篇
+    description:  
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
+      - title: 计算机系统架构
+        icon: 
+        details: 中国山东大学李峰教授
+        link: https://funglee.github.io/csa/csa.html
+
+      - title: 重构与设计模式
+        icon:
+        details: 从整体了解各种代码重构技巧和设计模式， 学习它们之间如何交叉、 合作和关联。
+        link: https://refactoringguru.cn/
+
+      - title: 重构 改善既有代码的设计（第2版）
+        icon: 用Java实现的设计模式
+        details: Martin Fowler
+        link: https://book-refactoring2.ifmicro.com/
+
+      - title: 设计模式(Start:90k+)
+        icon:
+        details: Martin Fowler
+        link: https://github.com/iluwatar/java-design-patterns
+        
+      - title: 算法与数据结构(Start:60.1k+)
+        icon: code
+        details: 基于 Java 的算法实现
+        link: https://github.com/TheAlgorithms/Java?tab=readme-ov-file
+
+      - title: 算法与数据结构（Star:17.3k+）
+        icon: code
+        details: 
+        link: https://github.com/williamfiset/Algorithms
+
       - title: Java
-        icon: code
-        details: 一种多平台、面向对象且以网络为中心的高级编程语言，具有强大的跨平台性和丰富的类库，广泛应用于企业级应用开发、安卓应用开发等众多领域。
-
-      - title: HTML/CSS 
-        icon: code
-        details: HTML 用于构建网页的结构，CSS 用于控制网页的样式，二者配合可以将普通的文本内容渲染成美观、具有交互性的网页。
-
-      - title: JavaScript
-        icon: code
-        details: 一种动态的、弱类型的脚本语言，用于为网页添加交互功能，而不是作为 GFM 风格的警告容器，比如可以实现表单验证、动画效果等
-
-      - title: Vue
         icon: table-columns
-        details: 一套用于构建用户界面的渐进式 JavaScript 框架，可以方便地创建交互式的 Web 界面，通过组件化的方式高效地开发复杂的单页应用
+        details: 针对 JDK 8 编写的
+        link: https://docs.oracle.com/javase/tutorial/
+        
+      - title: Effective Java(3rd)
+        icon: 
+        details: Effective Java（第3版）
+        link: https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual
+        
+      - title: Effective Java(3rd) Source Code
+        icon:
+        details: Effective Java（第3版）源码
+        link: https://github.com/jbloch/effective-java-3e-source-code
+        
+      - title: Java8InAction 源码
+        icon:
+        details:  aq
+        link: https://github.com/java8/Java8InAction
+        
+      - title: MDN Web Docs
+        icon: code
+        details: 面向开发者的 Web 技术
+        link: https://developer.mozilla.org/zh-CN/docs/Web
+
+      - title: 数据库内核月报（淘宝）
+        icon: table-columns
+        details: 数据库内核月报
+        link: http://mysql.taobao.org/monthly/
+
 
   - header: 工作经历
     description: 伟大企业引领伟大事业，伟大事业始于爱岗敬岗
@@ -285,31 +366,3 @@ highlights:
 copyright: true
 footer: 🇨🇳高举中国特色社会主义伟大旗帜  💪为实现强国建设、民族复兴伟业奋斗终身
 ---
-
-
-
-
-
-# 工作日志
-
-## 2024
-
-- 
-
-- [https://tech.meituan.com/tags/cat.html](https://tech.meituan.com/tags/cat.html)
-
-- [在虚拟机CentOS中安装Docker](https://www.cnblogs.com/kohler21/p/18359181)
-
-- 探索 DA 项目[搜索引擎增强](https://ecosystem.vuejs.press/zh/plugins/seo/seo/guide.html)
-
-- 基于 [https://github.com/spring2go/cat_lab](https://github.com/spring2go/cat_lab) 学习本地部署 CAT 
-
-  -  参考 [CAT：服务端部署](https://github.com/dianping/cat/wiki/readme_server)
-     -  [centos7下安装jdk7](https://www.cnblogs.com/xhkj/p/6545111.html)
-     -  [Centos 8 安装 Maven 3.6.3](https://blog.csdn.net/peng2hui1314/article/details/127974916)
-     -  [Linux - centos7.X安装tomcat8](https://cloud.tencent.com/developer/article/1640869) 
-     -  [分布式监控CAT服务端的本地部署 ](https://www.cnblogs.com/heihaozi/p/11762894.html) 
-     
-  - 部署成本较高，参考  [美团点评CAT部署了各种环境不下10次，遇到的坑整理l](https://www.cnblogs.com/jingch/p/17141552.html) .
-  
-    
