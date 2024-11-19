@@ -1,23 +1,4 @@
 
-
-
-[https://blog.csdn.net/vivo_tech](https://blog.csdn.net/vivo_tech)  vivo技术
-
-
-~~https://102.alibaba.com  阿里技术 `停更`~~
-
-
-
-
-
-
-https://github.com/binhnguyennus/awesome-scalability 系统性能 `性能`
-
-
-
-https://github.com/binhnguyennus/awesome-scalability  可扩展、高性能 `性能`
-
-
 [https://github.com/llh911001/mostly-adequate-guide-chinese]([https://github.com/llh911001/mostly-adequate-guide-chinese](ticktick://ttMarkdownLink))  函数式编程指北
 
 
@@ -27,7 +8,6 @@ https://github.com/binhnguyennus/awesome-scalability  可扩展、高性能 `性
 
 [https://www.sonarsource.com/products/sonarqube/](https://www.sonarsource.com/products/sonarqube/)  Sonar 代码质量与安全
 
-https://github.com/jgraph/drawio-desktop/releases  draw.io `画图`
 
 https://www.docker.com  docker `容器`
 
@@ -37,9 +17,7 @@ https://www.docker.com  docker `容器`
 [https://formulae.brew.sh](https://formulae.brew.sh)  brew 包管理工具
 
 
-https://github.com/alibaba/COLA  阿里巴巴 COLA  `脚手架` `架构`
 
-https://start.aliyun.com/bootstrap.html  阿里巴巴脚手架
 
 
 
