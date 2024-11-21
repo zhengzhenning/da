@@ -8,7 +8,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁
-tagline: 👨🏻‍💻 计算机科学与技术 后端开发 2017年-至今 </br> </br> 技术价值在于创造价值，技术本质在于集成整合
+tagline: 👨🏻‍💻 计算机科学与技术 后端开发 2017年-至今 </br> </br> 集成整合 创造价值
 actions:
   - text: Github
     link: https://github.com/zhengzhenning
@@ -52,34 +52,18 @@ highlights:
         icon: icon-shangshigongsi
         details: 🏆 2020年成长新锐奖 </br>
 
-  - header: 技能图谱 / 架构篇
+  - header: 技能图谱 / 方案层
     description: 
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 微服务架构全景图
+      - title: 直播间礼物系统设计方案 <code>高并发</code>
         icon: 
-        details: 阿里生态下的微服务架构全景图
-        link: https://start.aliyun.com/ecosystem.html
-        
+        details: 
+        link: 
 
-      - title: 凤凰架构
-        icon:
-        details: 构建可靠的大型分布式系统
-        link: http://icyfenix.cn
-        
-      - title: Alibaba COLA架构
-        icon:
-        details: 简洁的面向对象和分层架构
-        link: https://github.com/alibaba/COLA
-        
-      - title: awesome-scalability
-        icon:
-        details: 可扩展、可靠、高性能的大型系统模式
-        link: https://github.com/binhnguyennus/awesome-scalability
-
-  - header: 技能图谱 / 框架篇
+  - header: 技能图谱 / 框架层
     description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
@@ -110,7 +94,7 @@ highlights:
         details: 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
         link: https://spring.io/projects/spring-cloud
           
-  - header: 技能图谱 / 组件篇
+  - header: 技能图谱 / 组件层
     description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
@@ -124,43 +108,43 @@ highlights:
         icon: icon-jiankonggaojing
         details: 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
         link: https://github.com/dianping/cat
-      - title: Nacos
-        icon: icon-nacos
+      - title: Nacos <code>配置中心</code> <code>注册中心</code>
+        icon: icon-nacos1
         details: 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
       - title: Activiti7  <code>工作流</code>
         icon: icon-gongzuoliuquanjugongxiang
         details: 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
         link: https://www.activiti.org/
-      - title: RabbitMQ
+      - title: RabbitMQ <code>消息队列</code>
         icon: icon-rabbitmq
         details: 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
         link: https://www.rabbitmq.com/
-      - title: Kafka
+      - title: Kafka <code>消息队列</code>
         icon: icon-apachekafka
         details: 一个开源分布式事件流平台，数千家公司使用它来实现高性能数据管道、流分析、数据集成和关键任务应用程序。
         link: https://kafka.apache.org/
-      - title: EhCache(2.x / 3.x)
+      - title: EhCache(2.x / 3.x) <code>本地缓存</code>
         icon: icon-Ehcache
         details: 是使用最广泛的基于 Java 的缓存，因为它功能强大、久经考验、功能齐全，并且可与其他流行的库和框架集成。
         link: https://www.ehcache.org/
-      - title: Caffeine Cache
+      - title: Caffeine Cache <code>本地缓存</code>
         icon: icon-zhongzi
         details: 一款高性能、接近最佳的缓存库。
         link: https://github.com/ben-manes/caffeine
-      - title: Redis
+      - title: Redis <code>分布式缓存</code> <code>分布式锁</code>
         icon: icon-redis
         details: 一个持久存储在磁盘上的内存数据库。数据模型是键值，但支持多种不同类型的值：字符串、列表、集合、有序集合、哈希、流、HyperLogLog、位图。
         link: https://redis.io/
-      - title: MongoDB
+      - title: MongoDB <code>文档数据库</code>
         icon: icon-mongodb_
         details:  世界上最流行的文档数据库现在也是世界上功能最全面的开发者数据平台。
         link: https://www.mongodb.com/zh-cn
-      - title: InfuxDB
-        icon: icon-influxdb
+      - title: InfuxDB <code>时序数据库</code>
+        icon: icon-Influxdb
         details:
         link:
-      - title: GuassDB
+      - title: GuassDB 
         icon: icon-zu4441
         details:
         link:
@@ -173,76 +157,76 @@ highlights:
         details:
         link:
       - title: MyBatis
-        icon: icon-mysql
+        icon: icon-mybatis
         details:
         link: https://mybatis.org/mybatis-3/zh_CN/index.html
       - title: MyBatis-Plus
-        icon: icon-mysql
+        icon: icon-mybatisplus
         details:
         link: https://baomidou.com/
       - title: Hibernate
-        icon: icon-mysql
+        icon: icon-Hibernate
         details:
         link: https://hibernate.org/
-      - title: JUnit4
-        icon: 
+      - title: JUnit4 <code>单元测试</code>
+        icon: icon-Junit
         details:
         link: https://junit.org/junit4/
-      - title: JUnit5
-        icon:
+      - title: JUnit5 <code>单元测试</code>
+        icon: icon-JUnit
         details:
         link: https://junit.org/junit5/
-      - title: Mockito
+      - title: Mockito <code>单元测试</code>
         icon: https://site.mockito.org/
         details:
         link:
-      - title: Powermock
+      - title: Powermock <code>单元测试</code>
         icon:
         details:
         link: https://github.com/powermock/powermock
-      - title: Orika
+      - title: Orika <code>对象拷贝</code>
         icon:
         details:
         link: https://orika-mapper.github.io/orika-docs/      
           
-  - header: 技能图谱 / 工具篇
+  - header: 技能图谱 / 工具层
     description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
     image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: IntelliJ IDEA
-        icon: code
+        icon: icon-icons8-intellij-idea
         details:
         link:
           
       - title: Maven
-        icon: code
+        icon: icon-maven
         details:
         link:
           
       - title: Gradle
-        icon: code
+        icon: icon-gradle
         details:
         link:
           
       - title: Docker
-        icon: code
+        icon: icon-docker
         details:
         link:
           
-      - title: Git | SVN
+      - title: Git
         icon: code
         details:
         link:
           
       - title: Tomcat 
-        icon: code
+        icon: icon-Tomcat
         details:
         link:
           
       - title: Navicat Premium
-        icon: code
+        icon: icon-navicat
         details:
         link:   
           
@@ -252,12 +236,12 @@ highlights:
         link:
           
       - title: Postman
-        icon: code
+        icon: icon-postman
         details:
         link:
           
       - title: Apifox
-        icon: code
+        icon: icon-apifox
         details:
         link:
 
@@ -272,7 +256,7 @@ highlights:
         link: https://app.diagrams.net/
         
       - title: 云原生应用脚手架
-        icon: code
+        icon: icon-jiaoshoujia
         details: 快速搭建服务
         link: https://start.aliyun.com/bootstrap.html
 
@@ -319,27 +303,34 @@ footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现
 
 ## 理论基础
 
+- 架构
+  
+  - [微服务架构全景图（Alibaba）](https://start.aliyun.com/ecosystem.html)
+  - [凤凰架构：构建可靠的大型分布式系统](http://icyfenix.cn)
+  - [可扩展、可靠、高性能的大型系统模式（awesome-scalability）]( https://github.com/binhnguyennus/awesome-scalability)
+  
 - Java
+
   - [https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/)
   - [Effective Java（第3版）](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual) [源码](https://github.com/jbloch/effective-java-3e-source-code) 
   - Java8InAction [源码](https://github.com/java8/Java8InAction) 
-  
+
 - Web 技术
   - [MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web)
-  
+
 - 算法与数据结构
   - [https://github.com/TheAlgorithms/Java?tab=readme-ov-file](https://github.com/TheAlgorithms/Java?tab=readme-ov-file) 基于 Java 的算法实现(Start:60k+)
   - [https://github.com/williamfiset/Algorithms](https://github.com/williamfiset/Algorithms) 算法与数据结构（Star:17.3k+）
-  
+
 - 计算机体系结构
   - [https://funglee.github.io/csa/csa.html ](https://funglee.github.io/csa/csa.html) `中国山东大学李峰教授`
-  
+
 - 数据库
   - [数据库内核月报（淘宝）](http://mysql.taobao.org/monthly/)
-  
+
 - 代码质量
   - [设计模式(Start：90k+)](https://github.com/iluwatar/java-design-patterns)
   - [重构 改善既有代码的设计（第2版）Martin Fowler](https://book-refactoring2.ifmicro.com/) 
   -  [https://refactoringguru.cn/](https://refactoringguru.cn/) 重构与设计模式
-  
+
   
