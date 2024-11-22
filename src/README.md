@@ -311,7 +311,7 @@ footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现
 - 架构
   
   - [微服务架构全景图（Alibaba）](https://start.aliyun.com/ecosystem.html)
-  - [凤凰架构：构建可靠的大型分布式系统](http://icyfenix.cn)
+  - [凤凰架构：构建可靠的大型分布式系统(作者：周志明)](http://icyfenix.cn)
   - [可扩展、可靠、高性能的大型系统模式（awesome-scalability）]( https://github.com/binhnguyennus/awesome-scalability)
   
 - Java
