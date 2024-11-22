@@ -23,8 +23,8 @@ actions:
 highlights:
   - header: 核心竞争力
     image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
       - title: 强大的业务分析能力，助力您加速链接与客户的价值密度
       - title: 强大的文档沉淀能力，助力您沉淀有形的数字资产
@@ -32,17 +32,17 @@ highlights:
 
   - header: 业绩表现
     image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
       - title: 中国工商银行（外源)
         icon: icon-ICBC
         details: 
-          🏆 2023年上半年开发卓越奖 </br>
-          🏆 2023年第4季度绩效评定A级 </br>
-          🏆 2023年第3季度绩效评定A级 </br>
-          🏆 2023年第2季度绩效评定A级 </br>
-          🏆 2023年第1季度绩效评定A级 </br>             
+          🏆 2023 年上半年开发卓越奖 </br>
+          🏆 2023 年第 4 季度绩效评定等级 A 级 </br>
+          🏆 2023 年第 3 季度绩效评定等级 A 级 </br>
+          🏆 2023 年第 2 季度绩效评定等级 A 级 </br>
+          🏆 2023 年第 1 季度绩效评定等级 A 级 </br>             
 
       - title: 云南南天电子信息产业股份有限公司北京分公司
         icon: icon-shangshigongsi
@@ -55,8 +55,8 @@ highlights:
   - header: 技能图谱 / 方案层
     description: 
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: 直播间礼物系统设计方案 <code>高并发</code>
         icon: 
@@ -66,39 +66,44 @@ highlights:
   - header: 技能图谱 / 框架层
     description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark:  # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: Spring
         icon: icon-spring_
         details: 使 Java 编程对每个人来说都更快、更轻松、更安全。
         link: https://spring.io/
 
-      - title: SpringMVC
+      - title: Spring MVC
         icon: icon-SPRINGMVC
         details: 用于构建 Web 应用程序的 Java 框架。
         link: https://docs.spring.io/spring-framework/reference/web/webmvc.html
 
-      - title: SpringData
+      - title: Spring Data
         icon: icon-database
         details: 提供一个熟悉、一致的基于 Spring 的数据访问编程模型，同时仍然保留底层数据存储的特殊特性。
         link: https://spring.io/projects/spring-data
 
-      - title: SpringBoot
+      - title: Spring Boot
         icon: icon-SPRINGMVC
         details: 轻松创建独立的、基于 Spring 的生产级应用程序
         link: https://spring.io/projects/spring-boot
 
-      - title: SpringCloud
+      - title: Spring Cloud
         icon: icon-SpringCloud
         details: 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
         link: https://spring.io/projects/spring-cloud
+        
+      - title: Spring Cloud OpenFeign
+        icon: icon-SpringCloud
+        details: 一个声明式 Web 服务客户端。它使编写 Web 服务客户端变得更加容易。
+        link: https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/
           
   - header: 技能图谱 / 组件层
     description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    bgImage: # https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
       - title: Promethues
         icon: icon-promethues
@@ -192,8 +197,8 @@ highlights:
   - header: 技能图谱 / 工具层
     description: 子曰：工欲善必先利其器，子再约：君子生非异也，善假于物也
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage:  # https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: #  https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: IntelliJ IDEA
         icon: icon-icons8-intellij-idea
