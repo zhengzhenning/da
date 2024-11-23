@@ -27,7 +27,7 @@ highlights:
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 《生产级认证授权解决方案：Spring Security + OAuth2.0 + JWT》 <code></code>
+      - title: 《生产级认证授权解决方案》 <code>Spring Security</code> <code>OAuth2</code> <code>JWT</code>
         icon: 
         details: 
         link: 
