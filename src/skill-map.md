@@ -21,11 +21,11 @@ actions:
 
 
 highlights:
-  - header:  框架层
-    description: Spring 全家桶，开发速度媲美东风快递，助力贵司一键布局全球市场，狂澜世界财富造福华夏子孙
+  - header:  组件层
+    description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
     image: /assets/image/ui.svg
-    bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark:  # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: # https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
       - title: Spring
         icon: icon-spring_
@@ -47,22 +47,15 @@ highlights:
         details: 轻松创建独立的、基于 Spring 的生产级应用程序
         link: https://spring.io/projects/spring-boot
 
-      - title: Spring Cloud
+      - title: Spring Cloud <code>微服务</code>
         icon: icon-SpringCloud
         details: 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
         link: https://spring.io/projects/spring-cloud
-        
+
       - title: Spring Cloud OpenFeign
         icon: icon-SpringCloud
         details: 一个声明式 Web 服务客户端。它使编写 Web 服务客户端变得更加容易。
         link: https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/
-          
-  - header:  组件层
-    description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
-    image: /assets/image/ui.svg
-    bgImage: # https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/9-dark.svg
-    features:
       - title: Promethues
         icon: icon-promethues
         details: 开源的监控和警报工具套件，适用于微服务、容器和动态计算环境，在 Kubernetes 等容器编排平台的社区中非常流行。
@@ -71,7 +64,7 @@ highlights:
         icon: icon-jiankonggaojing
         details: 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
         link: https://github.com/dianping/cat
-      - title: Nacos <code>配置中心</code> <code>注册中心</code>
+      - title: Nacos <code>配置中心</code> <code>服务发现</code>
         icon: icon-nacos1
         details: 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
