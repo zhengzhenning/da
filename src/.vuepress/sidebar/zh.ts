@@ -103,6 +103,5 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
     },
-    "intro",
   ],
 });

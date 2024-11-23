@@ -1,7 +1,7 @@
 ---
 containerClass: home
 home: true
-title: 我的简历
+title: 解决方案
 icon: home
 bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
