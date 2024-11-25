@@ -72,7 +72,7 @@ highlights:
         icon: icon-gongzuoliuquanjugongxiang
         details: 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
         link: https://www.activiti.org/
-      - title: RabbitMQ <code>消息队列</code>
+      - title: RabbitMQ <code>消息队列</code> <code>AMQP协议</code> 
         icon: icon-rabbitmq
         details: 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
         link: https://www.rabbitmq.com/

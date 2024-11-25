@@ -12,6 +12,9 @@ export const zhNavbar = navbar([
     }, {
         text: "技术笔记",
         link: "/tech-note.md",
+    }, {
+        text: "牛人牛网",
+        link: "/awesome-site.md",
     }
 ]);
 

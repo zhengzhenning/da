@@ -97,29 +97,3 @@ https://github.com/mouzt/mzt-biz-log/  美团操作日志组件
 
 
 https://github.com/Snailclimb/JavaGuide  Java 指南
-
-
-
-
-
-# 人物 👨🏻‍💻
-
-https://funglee.github.io 李峰/山东大学/教授 `系统结构`
-
-https://programmingisterrible.com  👨🏻‍💻 tef 博主
-
-https://coolshell.cn  👨🏻‍💻左耳朵耗子
-
-https://blog.codinghorror.com/about-me/ 👨🏻‍💻 stack overflow 创始人
-
-http://www.paulgraham.com  👨🏻‍💻 paulgraham，《黑客与画家》
-
-http://blog.cleancoder.com  👨🏻‍💻 Robert C.马丁（鲍勃叔叔）
-
-https://martinfowler.com 👨🏻‍💻马丁福勒
-
-https://www.joelonsoftware.com 👨🏻‍💻 stack overflow创始人
-
-[https://github.com/crisxuan/bestJavaer]([https://github.com/crisxuan/bestJavaer](ticktick://ttMarkdownLink))  👨🏻‍💻程序员cxuan
-
-https://www.bruceeckel.com  👨🏻‍💻 Bruce Eckel 《OnJava8》
