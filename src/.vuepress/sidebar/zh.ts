@@ -70,17 +70,6 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
     },
-    // 侧边栏配置 - 工具指引
-    {
-      text: "工具指引",
-      icon: "book",
-      prefix: "工具指引/",
-      link: "工具指引/",
-      // 自动生成侧边栏
-      children: "structure",
-      // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true,
-    },
     // 侧边栏配置 - 数据库笔记
     {
       text: "数据库笔记",
@@ -98,6 +87,17 @@ export const zhSidebar = sidebar({
       icon: "book",
       prefix: "Activiti7笔记/",
       link: "Activiti7笔记/",
+      // 自动生成侧边栏
+      children: "structure",
+      // // 可选的, 设置分组是否可以折叠，默认值是 false,
+      collapsible: true,
+    },
+    // 侧边栏配置 - 漫游日志
+    {
+      text: "漫游日志",
+      icon: "book",
+      prefix: "漫游日志/",
+      link: "漫游日志/",
       // 自动生成侧边栏
       children: "structure",
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
