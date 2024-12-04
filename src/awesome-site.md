@@ -78,10 +78,10 @@ highlights:
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 廖雪峰的官方网站
+      - title: MySQL 难点解析
         icon:
-        details:
-        link: https://liaoxuefeng.com/
+        details: 快速解决MySQL技术难点
+        link: https://time.geekbang.org/dailylesson/topic/143
 
       - title: 廖雪峰的官方网站
         icon:

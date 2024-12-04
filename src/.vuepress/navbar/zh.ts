@@ -3,17 +3,17 @@ import {navbar} from "vuepress-theme-hope";
 export const zhNavbar = navbar([
     "/",
     {
-        text: "解决方案",
+        text: "方案地图",
         link: "/solution.md",
     }
     , {
-        text: "技能图谱",
+        text: "技能地图",
         link: "/skill-map.md",
     }, {
         text: "技术笔记",
         link: "/tech-note.md",
     }, {
-        text: "牛人牛网",
+        text: "外部链接",
         link: "/awesome-site.md",
     }
 ]);

@@ -151,6 +151,11 @@ highlights:
     bgImage:  # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: #  https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
+      - title: Rancher <code>企业级K8s管理平台</code>
+        icon: 
+        details: Rancher是采用容器的团队的完整软件堆栈。它解决了管理多个Kubernetes集群的运营和安全挑战，同时为DevOps团队提供了运行容器化工作负载的集成工具。
+        link: https://www.rancher.com/
+          
       - title: IntelliJ IDEA
         icon: icon-icons8-intellij-idea
         details:
