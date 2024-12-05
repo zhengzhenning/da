@@ -9,7 +9,7 @@
 npm install pkg --registry https://registry.npmmirror.com
 ```
 
-# 项目结构
+# 项目基本骨架结构
 
 ```
 .
@@ -38,9 +38,29 @@ npm install pkg --registry https://registry.npmmirror.com
 └── package.json → Nodejs 配置文件
 ```
 
-# 升级 VuePress banben
+# 升级 VuePress 版本
 
 ```shell
 npx vp-update
+```
+
+# Npm 国内镜像配置
+
+- 腾讯云镜像
+
+```
+npm config set registry http://mirrors.cloud.tencent.com/npm/
+```
+
+- 淘宝镜像
+
+```
+npm config set registry https://registry.npmmirror.com
+```
+
+- 华为云镜像
+
+```
+npm config set registry https://mirrors.huaweicloud.com/repository/npm/
 ```
 
