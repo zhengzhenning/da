@@ -19,6 +19,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.61",
     "artplayer": "^5.1.7",
     "dashjs": "^4.7.4",
     "hls.js": "^1.5.16",

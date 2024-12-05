@@ -2,7 +2,10 @@ import {hopeTheme} from "vuepress-theme-hope";
 import {zhNavbar} from "./navbar/index.js";
 import {zhSidebar} from "./sidebar/index.js";
 import {MR_HOPE_AVATAR} from "./logo.js";
-import {seoPlugin} from '@vuepress/plugin-seo' // 引入SEO插件
+// 引入SEO插件
+import {seoPlugin} from "@vuepress/plugin-seo";
+// 引入搜索功能
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 export default hopeTheme({
 
@@ -30,43 +33,6 @@ export default hopeTheme({
 
     docsDir: "src",
 
-    blog: {
-        // medias: {
-        //   Baidu: "https://example.com",
-        //   BiliBili: "https://example.com",
-        //   Bitbucket: "https://example.com",
-        //   Dingding: "https://example.com",
-        //   Discord: "https://example.com",
-        //   Dribbble: "https://example.com",
-        //   Email: "mailto:info@example.com",
-        //   Evernote: "https://example.com",
-        //   Facebook: "https://example.com",
-        //   Flipboard: "https://example.com",
-        //   Gitee: "https://example.com",
-        //   GitHub: "https://example.com",
-        //   Gitlab: "https://example.com",
-        //   Gmail: "mailto:info@example.com",
-        //   Instagram: "https://example.com",
-        //   Lark: "https://example.com",
-        //   Lines: "https://example.com",
-        //   Linkedin: "https://example.com",
-        //   Pinterest: "https://example.com",
-        //   Pocket: "https://example.com",
-        //   QQ: "https://example.com",
-        //   Qzone: "https://example.com",
-        //   Reddit: "https://example.com",
-        //   Rss: "https://example.com",
-        //   Steam: "https://example.com",
-        //   Twitter: "https://example.com",
-        //   Wechat: "https://example.com",
-        //   Weibo: "https://example.com",
-        //   Whatsapp: "https://example.com",
-        //   Youtube: "https://example.com",
-        //   Zhihu: "https://example.com",
-        //   MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],
-        // },
-    },
-
     locales: {
         /**
          * Chinese locale config
@@ -90,7 +56,6 @@ export default hopeTheme({
                 avatar: "/avatar.jpg",
                 // 博客头像-裁剪成圆形
                 roundAvatar: true,
-                description: "后端研发工程师（Java），善于业务流程设计、代码重构、设计模式落地应用、SQL性能分析与优化、单元测试、项目需求全过程跟踪闭环等",
             },
 
             // page meta
@@ -111,6 +76,7 @@ export default hopeTheme({
     hotReload: true,
 
     plugins: {
+
         // 由于 git 插件需要调用 Git 程序并且涉及文件 IO，因此此功能会对启动与热更新速度造成严重影响，
         // 所以默认情况下主题不会在开发模式下启用。
         // 如有需要，请在主题选项中设置 plugins.git: true 或 hotReload: true。
@@ -140,17 +106,11 @@ export default hopeTheme({
         // all features are enabled for demo, only preserve features you need here
         mdEnhance: {
             // 启用 GFM 警告
-            alert: true,
-            // 使用 KaTeX 启用 TeX 支持
-            katex: true,
+            gfm: true,
             align: true,
             attrs: true,
-            codetabs: true,
             component: true, // 开启组件支持
             demo: true,
-            figure: true,
-            imgLazyload: true,
-            imgSize: true,
             include: true,
             mark: true,
             stylize: [
@@ -168,7 +128,6 @@ export default hopeTheme({
             ],
             sub: true,
             sup: true,
-            tabs: true,
             vPre: true,
             // 启动脚注
             footnote: true,
@@ -268,5 +227,8 @@ export default hopeTheme({
         //     ],
         //   },
         // },
+        markdownHint:{
+            alert:true
+        }
     },
 }, {custom: true}); // 开启组件自定义
