@@ -21,7 +21,7 @@ actions:
 
 
 highlights:
-  - header: 牛逼的人 
+  - header: 大人物
     description: 
     image: /assets/image/ui.svg
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
@@ -72,7 +72,7 @@ highlights:
         details:
         link:
 
-  - header: 牛逼的站
+  - header: 大平台
     description:
     image: /assets/image/ui.svg
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg

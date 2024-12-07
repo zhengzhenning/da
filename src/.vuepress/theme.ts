@@ -20,7 +20,7 @@ export default hopeTheme({
     // 引入图标资源
     iconAssets: ["fontawesome-with-brands",
         // 引入自己的图标资源库，注意：每次 DA-ICON 项目资源有更新都需要更新下面的配置 →  https://www.iconfont.cn/
-        "//at.alicdn.com/t/c/font_4726896_x3ek9pepjlk.css"
+        "//at.alicdn.com/t/c/font_4726896_xi4ta1j6egg.css"
     ],
     // 设置自己的图标资源库前缀
     iconPrefix: "iconfont ",
