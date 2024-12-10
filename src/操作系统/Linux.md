@@ -19,6 +19,10 @@ cat ~/.bashrc
 
 ![image-20240428114853311](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/image-20240428114853311.png)
 
+
+
+
+
 ```
 # 查看用户配置文文件
 cat ~/.bash_profile
@@ -46,6 +50,8 @@ uname -a
 > - `x86_64`: 系统使用的硬件架构，表示这是一个 64 位的 x86 架构系统。
 > - `x86_64 x86_64 x86_64`: 连续三个 `x86_64` 表示用户级别的硬件平台、编译时的硬件平台和内核支持的硬件平台。通常它们是相同的，意味着系统运行在原生硬件上。
 > - `GNU/Linux`: 表示这是一个使用 GNU 工具和库的 Linux 系统。
+
+
 
 ##  CPU信息
 
