@@ -77,6 +77,14 @@ export default hopeTheme({
 
     plugins: {
 
+        docsearch: {
+            // 你的选项
+            // appId, apiKey 和 indexName 是必填的
+            appId: "QU55N1GJBX",
+            apiKey: "c88395c158b5a58f81378534b01bc08c",
+            indexName: "zhengzhenningio",
+          },
+
         // 由于 git 插件需要调用 Git 程序并且涉及文件 IO，因此此功能会对启动与热更新速度造成严重影响，
         // 所以默认情况下主题不会在开发模式下启用。
         // 如有需要，请在主题选项中设置 plugins.git: true 或 hotReload: true。

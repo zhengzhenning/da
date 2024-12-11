@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.65",
     "katex": "^0.16.10",
     "sass-embedded": "^1.82.0",
     "vue": "^3.5.13",
@@ -19,7 +20,6 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-rc.61",
     "artplayer": "^5.1.7",
     "dashjs": "^4.7.4",
     "hls.js": "^1.5.16",
