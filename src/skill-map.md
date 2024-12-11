@@ -144,7 +144,11 @@ highlights:
         icon:
         details:
         link: https://orika-mapper.github.io/orika-docs/      
-          
+      - title: k6 <code>负载测试</code> 
+        icon:
+        details: The best developer experience for load testing
+        link: https://k6.io/     
+
   - header:  工具层
     description: 生非异也，善假于物也
     image: /assets/image/ui.svg
