@@ -22,7 +22,7 @@ actions:
 
 highlights:
   - header: 核心竞争力
-    image: /assets/image/box.svg
+    # image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
@@ -31,7 +31,7 @@ highlights:
       - title: 无与伦比的通识编码能力，促进企业高效运转，快速更迭血液，持续迸发刚劲强韧的生命力。
 
   - header: 业绩表现
-    image: /assets/image/features.svg
+    # image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
@@ -54,7 +54,6 @@ highlights:
 
   - header: 工作经历 👨🏻‍💻
     description: 伟大企业引领伟大事业，伟大事业始于爱岗敬岗
-    image: /assets/image/ui.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
@@ -75,7 +74,6 @@ highlights:
 
   - header: 教育经历 🎓
     description: 学历重要，但学力更重要。
-    image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
@@ -89,7 +87,6 @@ highlights:
         icon: fas fa-window-maximize fa-rotate-270
         link: https://www.cdtu.edu.cn/
 
-copyright: true
 footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现强国建设、民族复兴伟业奋斗终身 
 ---
 
