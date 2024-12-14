@@ -26,9 +26,9 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
-      - title: 强大的业务分析能力，助力您加速链接与客户的价值密度
-      - title: 强大的文档沉淀能力，助力您沉淀有形的数字资产
-      - title: 无与伦比的编码能力，促进企业高效运转，快速更迭血液，持续迸发刚劲强韧的生命力。
+      - title: 审慎缜密的业务分析能力，助力企业加速链接与客户的价值密度。
+      - title: 精益求精的文档沉淀能力，助力企业沉淀有形的数字资产。
+      - title: 无与伦比的通识编码能力，促进企业高效运转，快速更迭血液，持续迸发刚劲强韧的生命力。
 
   - header: 业绩表现
     image: /assets/image/features.svg
