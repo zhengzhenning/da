@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://mister-hope.github.io/yibu_zzn/sitemap.xml

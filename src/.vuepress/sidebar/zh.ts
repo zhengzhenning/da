@@ -48,17 +48,6 @@ export const zhSidebar = sidebar({
       // // 可选的, 设置分组是否可以折叠，默认值是 false,
       collapsible: true,
     },
-    // 侧边栏配置 - 《Java笔记》
-    {
-      text: "Java笔记",
-      icon: "icon-book",
-      prefix: "Java笔记/",
-      link: "Java笔记/",
-      // 自动生成侧边栏
-      children: "structure",
-      // // 可选的, 设置分组是否可以折叠，默认值是 false,
-      collapsible: true,
-    },
     // 侧边栏配置 - 《微服务架构》
     {
       text: "微服务架构",

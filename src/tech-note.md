@@ -9,9 +9,6 @@
 
 
 
-[https://www.sonarsource.com/products/sonarqube/](https://www.sonarsource.com/products/sonarqube/)  Sonar 代码质量与安全
-
-
 https://www.docker.com  docker `容器`
 
 [https://formulae.brew.sh](https://formulae.brew.sh)  brew 包管理工具
@@ -47,8 +44,6 @@ https://regex101.com  regex验证
 
 
 
-
-https://github.com/mouzt/mzt-biz-log/  美团操作日志组件
 
 
 

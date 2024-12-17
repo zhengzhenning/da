@@ -9,6 +9,13 @@ import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 export default hopeTheme({
 
+    // 加密
+    encrypt:{
+        config:{
+            // 目录加密
+            "/投研日志/": "0000",
+        }
+    },
 
     hostname: "https://mister-hope.github.io",
 
@@ -65,12 +72,6 @@ export default hopeTheme({
         },
     },
 
-    encrypt: {
-        config: {
-            "/demo/encrypt.html": ["1234"],
-            "/zh/demo/encrypt.html": ["1234"],
-        },
-    },
 
     // enable it to preview all changes in time
     hotReload: true,

@@ -21,9 +21,8 @@ actions:
 
 
 highlights:
-  - header: 人物
+  - header: 外部链接
     description: 
-    image: /assets/image/ui.svg
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
@@ -41,6 +40,11 @@ highlights:
         icon:
         details:
         link: https://funglee.github.io
+
+      - title: 计算机网络原理微课堂（湖科大） 
+        icon: 
+        details: <code>网络原理</code>  <code>强力推荐</code> 用简单的语言描述复杂的问题，用形象生动的动画演示抽象的概念，用精美的文案给人视觉上的享受。让初学者更容易入门计算机网络。
+        link: https://www.bilibili.com/video/BV1c4411d7jb/?share_source=copy_web&vd_source=11ebb764bc8f78776f59e125ff1c61ef
         
       - title: 左耳朵耗子 <code>极客</code>
         icon:
@@ -72,12 +76,6 @@ highlights:
         details:
         link:
 
-  - header: 平台
-    description:
-    image: /assets/image/ui.svg
-    bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    features:
       - title: Git 教程
         icon: icon-book
         details:  
@@ -157,7 +155,7 @@ highlights:
         icon: 
         details: <code>系统结构</code>  研究计算机体系结构的演变以及影响计算机系统硬件和软件元素设计的因素。
         link: https://funglee.github.io/csa/csa.html
-   
+
 
 
 copyright: true

@@ -47,9 +47,9 @@ highlights:
         details: 轻松创建独立的、基于 Spring 的生产级应用程序
         link: https://spring.io/projects/spring-boot
 
-      - title: Spring Cloud <code>微服务</code>
+      - title: Spring Cloud 
         icon: icon-SpringCloud
-        details: 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
+        details: <code>微服务</code> 用于快速构建分布式系统中的一些常见模式（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短寿命微服务和契约测试）
         link: https://spring.io/projects/spring-cloud
 
       - title: Spring Cloud OpenFeign
@@ -64,9 +64,9 @@ highlights:
         icon: icon-jiankonggaojing
         details: 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
         link: https://github.com/dianping/cat
-      - title: Nacos <code>配置中心</code> <code>服务发现</code>
+      - title: Nacos 
         icon: icon-nacos1
-        details: 构建云原生应用的动态服务发现、配置管理和服务管理平台
+        details: <code>配置中心</code> <code>服务发现</code> 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
       - title: Activiti7  <code>工作流</code>
         icon: icon-gongzuoliuquanjugongxiang
@@ -76,29 +76,29 @@ highlights:
         icon: icon-rabbitmq
         details: 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
         link: https://www.rabbitmq.com/
-      - title: Kafka <code>消息队列</code>
+      - title: Kafka 
         icon: icon-apachekafka
-        details: 一个开源分布式事件流平台，数千家公司使用它来实现高性能数据管道、流分析、数据集成和关键任务应用程序。
+        details: <code>消息队列</code> 一个开源分布式事件流平台，数千家公司使用它来实现高性能数据管道、流分析、数据集成和关键任务应用程序。
         link: https://kafka.apache.org/
-      - title: EhCache(2.x / 3.x) <code>本地缓存</code>
+      - title: EhCache(2.x / 3.x) 
         icon: icon-Ehcache
-        details: 是使用最广泛的基于 Java 的缓存，因为它功能强大、久经考验、功能齐全，并且可与其他流行的库和框架集成。
+        details: <code>本地缓存</code> 是使用最广泛的基于 Java 的缓存，因为它功能强大、久经考验、功能齐全，并且可与其他流行的库和框架集成。
         link: https://www.ehcache.org/
       - title: Caffeine Cache <code>本地缓存</code>
         icon: icon-zhongzi
         details: 一款高性能、接近最佳的缓存库。
         link: https://github.com/ben-manes/caffeine
-      - title: Redis <code>分布式缓存</code> <code>分布式锁</code>
+      - title: Redis 
         icon: icon-redis
-        details: 一个持久存储在磁盘上的内存数据库。数据模型是键值，但支持多种不同类型的值：字符串、列表、集合、有序集合、哈希、流、HyperLogLog、位图。
+        details: <code>分布式缓存</code> <code>分布式锁</code> 一个持久存储在磁盘上的内存数据库。数据模型是键值，但支持多种不同类型的值：字符串、列表、集合、有序集合、哈希、流、HyperLogLog、位图。
         link: https://redis.io/
-      - title: MongoDB <code>文档数据库</code>
+      - title: MongoDB 
         icon: icon-mongodb_
-        details:  世界上最流行的文档数据库现在也是世界上功能最全面的开发者数据平台。
+        details: <code>文档数据库</code> 世界上最流行的文档数据库现在也是世界上功能最全面的开发者数据平台。
         link: https://www.mongodb.com/zh-cn
-      - title: InfuxDB <code>时序数据库</code>
+      - title: InfuxDB 
         icon: icon-Influxdb
-        details:
+        details: <code>时序数据库</code>
         link:
       - title: GuassDB 
         icon: icon-zu4441
@@ -124,29 +124,29 @@ highlights:
         icon: icon-Hibernate
         details:
         link: https://hibernate.org/
-      - title: JUnit4 <code>单元测试</code>
+      - title: JUnit4 
         icon: icon-Junit
-        details:
+        details: <code>单元测试</code>
         link: https://junit.org/junit4/
-      - title: JUnit5 <code>单元测试</code>
+      - title: JUnit5 
         icon: icon-JUnit
-        details:
+        details: <code>单元测试</code>
         link: https://junit.org/junit5/
-      - title: Mockito <code>单元测试</code>
+      - title: Mockito 
         icon: https://site.mockito.org/
-        details:
+        details: <code>单元测试</code>
         link:
-      - title: Powermock <code>单元测试</code>
+      - title: Powermock 
         icon:
-        details:
+        details: <code>单元测试</code>
         link: https://github.com/powermock/powermock
-      - title: Orika <code>对象拷贝</code>
+      - title: Orika 
         icon:
-        details:
+        details: <code>对象拷贝</code>
         link: https://orika-mapper.github.io/orika-docs/      
-      - title: k6 <code>负载测试</code> 
-        icon:
-        details: The best developer experience for load testing
+      - title: k6 
+        icon: 
+        details: <code>负载测试</code>  The best developer experience for load testing
         link: https://k6.io/     
 
   - header:  工具层
@@ -214,6 +214,11 @@ highlights:
         icon: code
         details:
         link:
+
+      - title: Sonar
+        icon: code
+        details: 代码质检工具
+        link: https://www.sonarsource.com/products/sonarqube/
           
       - title: Draw.io
         icon: code
