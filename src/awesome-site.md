@@ -21,7 +21,7 @@ actions:
 
 
 highlights:
-  - header: 外部链接
+  - header:  ···
     description: 
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
@@ -36,9 +36,9 @@ highlights:
         details: 
         link: https://liaoxuefeng.com/
         
-      - title: 李峰-山东大学教授 <code>系统结构</code>
+      - title: 李峰-山东大学教授 
         icon:
-        details:
+        details: <code>系统结构</code>
         link: https://funglee.github.io
 
       - title: 计算机网络原理微课堂（湖科大） 
@@ -46,9 +46,9 @@ highlights:
         details: <code>网络原理</code>  <code>强力推荐</code> 用简单的语言描述复杂的问题，用形象生动的动画演示抽象的概念，用精美的文案给人视觉上的享受。让初学者更容易入门计算机网络。
         link: https://www.bilibili.com/video/BV1c4411d7jb/?share_source=copy_web&vd_source=11ebb764bc8f78776f59e125ff1c61ef
         
-      - title: 左耳朵耗子 <code>极客</code>
+      - title: 左耳朵耗子 
         icon:
-        details:
+        details: <code>极客</code>
         link: https://coolshell.cn
         
       - title:  Robert C.马丁（鲍勃叔叔）
@@ -61,9 +61,9 @@ highlights:
         details:
         link: https://martinfowler.com
           
-      - title: Bruce Eckel <code>Java编程思想</code>
+      - title: Bruce Eckel 
         icon:
-        details:
+        details: <code>Java编程思想</code>
         link: https://www.bruceeckel.com
           
       - title:
