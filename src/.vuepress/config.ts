@@ -9,7 +9,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "郑振宁",
+      title: "郑振宁 · 28",
       description: "数字资产园区",
     },
   },

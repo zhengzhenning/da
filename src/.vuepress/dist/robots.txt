@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mister-hope.github.io/yibu_zzn/sitemap.xml
+Sitemap: https://zhengzhenning.github.io/yibu_zzn/yibu_zzn/sitemap.xml

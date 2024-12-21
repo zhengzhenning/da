@@ -17,11 +17,11 @@ export default hopeTheme({
         }
     },
 
-    hostname: "https://mister-hope.github.io",
+    hostname: "https://zhengzhenning.github.io/yibu_zzn/",
 
     author: {
-        name: "郑振宁",
-        url: "https://mister-hope.com",
+        name: "郑振宁 · 28",
+        url: "https://zhengzhenning.github.io/yibu_zzn/",
     },
 
     // 引入图标资源
@@ -58,7 +58,7 @@ export default hopeTheme({
             // 博客基本信息
             blog: {
                 // 博客名
-                name: "郑振宁",
+                name: "郑振宁 · 28",
                 // 博客头像
                 avatar: "/avatar.jpg",
                 // 博客头像-裁剪成圆形
