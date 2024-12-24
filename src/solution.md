@@ -23,18 +23,20 @@ actions:
 highlights:
   - header: 解决方案
     description: 
-    image: /assets/image/ui.svg
-    bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: 《认证授权解决方案》
+      - title: 微服务示例程序
+        icon: icon-fangan
+        details:  <code> Spring Boot </code> <code> SpringCloud </code> <code> RabbitMQ </code> <code> Redis </code> <code> MongoDB </code> 基于开源项目 piggymetrics 搭建微服务
+        link:  /解决方案/微服务体验服.md
+      - title: 认证授权
         icon: icon-fangan
         details:   <code>Spring Security</code> <code>OAuth2</code> <code>JWT</code>
         link: 
-      - title: 《直播间打赏解决方案》
+      - title: 直播间打赏
         icon: icon-fangan
-        details:  <code>Spring Boot(2.3.4)</code> <code>RabbitMQ</code> <code>Redis</code> 直播间礼物系统的特点有：数据一致性要求高、实时性要求高、安全性要求高、消息重要性高、关联模块多（排行榜、用户等级等）  
+        details:  <code>Spring Boot(2.0.3)</code> <code>RabbitMQ</code> <code>Redis</code> 直播间礼物系统的特点有：数据一致性要求高、实时性要求高、安全性要求高、消息重要性高、关联模块多（排行榜、用户等级等）  
         link:  /解决方案/直播打赏.md
+
 
 
 
