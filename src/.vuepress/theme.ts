@@ -20,7 +20,7 @@ export default hopeTheme({
     hostname: "https://zhengzhenning.github.io/yibu_zzn/",
 
     author: {
-        name: "郑振宁 · 28",
+        name: "郑振宁",
         url: "https://zhengzhenning.github.io/yibu_zzn/",
     },
 
@@ -58,7 +58,7 @@ export default hopeTheme({
             // 博客基本信息
             blog: {
                 // 博客名
-                name: "郑振宁 · 28",
+                name: "郑振宁",
                 // 博客头像
                 avatar: "/avatar.jpg",
                 // 博客头像-裁剪成圆形
