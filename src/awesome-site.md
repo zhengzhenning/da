@@ -30,7 +30,12 @@ highlights:
         icon:
         details:
         link: https://zhengzhenning.github.io/yibu_zzn/
-        
+
+      - title: Docker 从入门到实践
+        icon: icon-book
+        details:
+        link: https://yeasy.gitbook.io/docker_practice
+
       - title: 廖雪峰的官方网站
         icon: 
         details: 
