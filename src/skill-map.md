@@ -60,21 +60,21 @@ highlights:
         icon: icon-promethues
         details: 开源的监控和警报工具套件，适用于微服务、容器和动态计算环境，在 Kubernetes 等容器编排平台的社区中非常流行。
         link: https://prometheus.io/
-      - title: CAT <code>成本高</code>
+      - title: CAT 
         icon: icon-jiankonggaojing
-        details: 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
+        details: <code>成本高</code> 基于 Java 开发的实时应用监控平台，提供了全面的实时监控告警服务。
         link: https://github.com/dianping/cat
       - title: Nacos 
         icon: icon-nacos1
         details: <code>配置中心</code> <code>服务发现</code> 构建云原生应用的动态服务发现、配置管理和服务管理平台
         link:
-      - title: Activiti7  <code>工作流</code>
+      - title: Activiti7  
         icon: icon-gongzuoliuquanjugongxiang
-        details: 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
+        details: <code>工作流</code> 领先的轻量级、以 Java 为中心的开源 BPMN 引擎，支持实际流程自动化需求。
         link: https://www.activiti.org/
-      - title: RabbitMQ <code>消息队列</code> <code>AMQP协议</code> 
+      - title: RabbitMQ  
         icon: icon-rabbitmq
-        details: 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
+        details: <code>消息队列</code> <code>AMQP协议</code> 一款可靠且成熟的消息传递和流式传输代理，可轻松部署在云环境、本地和本地计算机上。目前全球有数百万用户在使用。
         link: https://www.rabbitmq.com/
       - title: Kafka 
         icon: icon-apachekafka
@@ -84,9 +84,9 @@ highlights:
         icon: icon-Ehcache
         details: <code>本地缓存</code> 是使用最广泛的基于 Java 的缓存，因为它功能强大、久经考验、功能齐全，并且可与其他流行的库和框架集成。
         link: https://www.ehcache.org/
-      - title: Caffeine Cache <code>本地缓存</code>
+      - title: Caffeine Cache 
         icon: icon-zhongzi
-        details: 一款高性能、接近最佳的缓存库。
+        details: <code>本地缓存</code> 一款高性能、接近最佳的缓存库。
         link: https://github.com/ben-manes/caffeine
       - title: Redis 
         icon: icon-redis

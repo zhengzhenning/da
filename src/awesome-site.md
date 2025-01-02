@@ -31,6 +31,21 @@ highlights:
         details:
         link: https://zhengzhenning.github.io/yibu_zzn/
 
+      - title: Linux命令解析
+        icon: icon-book
+        details: <code>linux</code> 对一长串命令进行解析并给出具体解释
+        link: https://explainshell.com/
+
+      - title: Linux命令大全（手册）
+        icon: icon-book
+        details: <code>linux</code>
+        link: https://www.linuxcool.com/
+
+      - title: commandlinefu
+        icon: icon-book
+        details: <code>linux</code> 热门的Linux指令
+        link: https://www.commandlinefu.com/commands/browse
+
       - title: Docker 从入门到实践
         icon: icon-book
         details:
@@ -48,7 +63,7 @@ highlights:
 
       - title: 计算机网络原理微课堂（湖科大） 
         icon: 
-        details: <code>网络原理</code>  <code>强力推荐</code> 用简单的语言描述复杂的问题，用形象生动的动画演示抽象的概念，用精美的文案给人视觉上的享受。让初学者更容易入门计算机网络。
+        details: <code>网络原理</code>  <code>推荐👍</code> 用简单的语言描述复杂的问题，用形象生动的动画演示抽象的概念，用精美的文案给人视觉上的享受。让初学者更容易入门计算机网络。
         link: https://www.bilibili.com/video/BV1c4411d7jb/?share_source=copy_web&vd_source=11ebb764bc8f78776f59e125ff1c61ef
         
       - title: 左耳朵耗子 
@@ -56,9 +71,9 @@ highlights:
         details: <code>极客</code>
         link: https://coolshell.cn
         
-      - title:  Robert C.马丁（鲍勃叔叔）
+      - title:  Robert C.马丁
         icon:
-        details:
+        details: <code>Bob叔叔</code>
         link: http://blog.cleancoder.com
           
       - title: 马丁福勒
@@ -68,7 +83,7 @@ highlights:
           
       - title: Bruce Eckel 
         icon:
-        details: <code>Java编程思想</code>
+        details: <code>Java编程思想作者</code>
         link: https://www.bruceeckel.com
           
       - title:
