@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 
 export default defineUserConfig({
-  base: "/",
+  base: "/yibu_zzn/",
 
   locales: {
     "/": {
