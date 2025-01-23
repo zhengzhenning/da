@@ -86,10 +86,10 @@ highlights:
         details: <code>Java编程思想作者</code>
         link: https://www.bruceeckel.com
           
-      - title:
-        icon:
-        details:
-        link:
+      - title: ACM Digital Library
+        icon: 
+        details: ACM 数字图书馆
+        link: https://dl.acm.org/
           
       - title:
         icon:

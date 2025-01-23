@@ -12,6 +12,9 @@ export const zhNavbar = navbar([
     },  {
         text: "链接地图",
         link: "/awesome-site.md",
+    },  {
+        text: "经典文献",
+        link: "/classical-doc.md",
     }
 ]);
 
