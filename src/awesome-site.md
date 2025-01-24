@@ -91,10 +91,10 @@ highlights:
         details: ACM 数字图书馆
         link: https://dl.acm.org/
           
-      - title:
+      - title: CLOUD NATIVE LANDSCAPE
         icon:
-        details:
-        link:
+        details: 云原生景观图，将所有云原生开源项目和专有产品汇编并归类，以提供当前生态系统的概览。
+        link: https://landscape.cncf.io/?group=projects-and-products&view-mode=grid
 
       - title: Git 教程
         icon: icon-book
