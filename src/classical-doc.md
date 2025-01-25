@@ -28,11 +28,16 @@ highlights:
     features:
       - title: In Search of an Understandable Consensus Algorithm
         icon: icon-book
+        details: 断路器
+        link: https://martinfowler.com/bliki/CircuitBreaker.html
+      - title:  Martin Fowler：Circuit Breaker
+        icon: icon-book
         details: Raft算法：一种可以让人理解的共识算法
         link: https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
-
-
-
+      - title: Martin Fowler/James Lewis：Microservices
+        icon: icon-book
+        details: The term “Microservice Architecture” has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data.
+        link: https://martinfowler.com/articles/microservices.html
 
 copyright: true
 footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现强国建设、民族复兴伟业奋斗终身 
