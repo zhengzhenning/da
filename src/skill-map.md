@@ -155,10 +155,14 @@ highlights:
     bgImage:  # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: #  https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: Rancher <code>企业级K8s管理平台</code>
+      - title: Rancher 
         icon: 
-        details: Rancher是采用容器的团队的完整软件堆栈。它解决了管理多个Kubernetes集群的运营和安全挑战，同时为DevOps团队提供了运行容器化工作负载的集成工具。
+        details: <code>云原生</code> <code>企业级K8s管理平台</code> Rancher是采用容器的团队的完整软件堆栈。它解决了管理多个Kubernetes集群的运营和安全挑战，同时为DevOps团队提供了运行容器化工作负载的集成工具。
         link: https://www.rancher.com/
+      - title: kubernetes 
+        icon: 
+        details: <code>云原生</code> Kubernetes 也称为 K8s，是用于自动部署、扩缩和管理容器化应用程序的开源系统。
+        link: https://kubernetes.io/zh-cn/docs/tutorials/
           
       - title: IntelliJ IDEA
         icon: icon-icons8-intellij-idea
