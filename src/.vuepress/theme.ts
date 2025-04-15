@@ -9,6 +9,11 @@ import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 export default hopeTheme({
 
+    // 站点图标
+
+
+    favicon: "/favicon.png",
+
     // 加密
     encrypt:{
         config:{
@@ -177,7 +182,7 @@ export default hopeTheme({
             // install sandpack-vue3 before enabling it
             // sandpack: true,
         },
-
+       
         // install @vuepress/plugin-pwa and uncomment these if you want a PWA
         // pwa: {
         //   favicon: "/favicon.ico",

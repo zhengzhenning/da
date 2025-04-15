@@ -163,7 +163,10 @@ highlights:
         icon: 
         details: <code>云原生</code> Kubernetes 也称为 K8s，是用于自动部署、扩缩和管理容器化应用程序的开源系统。
         link: https://kubernetes.io/zh-cn/docs/tutorials/
-          
+      - title: minikube 
+        icon: 
+        details: <code>云原生</code> 本地运行Kubernetes
+        link: https://kubernetes.io/zh-cn/docs/tutorials/
       - title: IntelliJ IDEA
         icon: icon-icons8-intellij-idea
         details:
