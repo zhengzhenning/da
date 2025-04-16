@@ -36,7 +36,7 @@ highlights:
         link: https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14
       - title: Martin Fowler/James Lewis：Microservices
         icon: icon-book
-        details: The term “Microservice Architecture” has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data.
+        details: 微服务架构特点
         link: https://martinfowler.com/articles/microservices.html
 
 copyright: true
