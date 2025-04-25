@@ -31,7 +31,10 @@ highlights:
         details: 一种具有广泛用途的 K-V 结构
         link: /经典设计/哈希思想.md
 
-
+      - title: 多级缓存思想
+        icon: icon-book
+        details: 利用局部性原理，解决CPU与内存速度不匹配的问题
+        link: 经典设计/多级缓存思想.md
 copyright: true
 footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现强国建设、民族复兴伟业奋斗终身 
 ---
