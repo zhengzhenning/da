@@ -93,10 +93,10 @@ highlights:
     bgImage: # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
-      - title: Linux命令解析
+      - title: explainshell（Linux命令解析）
         icon: icon-book
         details: <code>linux</code> 对一长串命令进行解析并给出具体解释
-        link: https://explainshell.com/
+        link: https://www.explainshell.com/
 
       - title: commandlinefu
         icon: icon-book
