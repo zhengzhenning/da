@@ -39,10 +39,10 @@ highlights:
         icon: icon-ICBC
         details: 
           🏆 2023 年上半年开发卓越奖 </br>
-          🏆 2023 年第 4 季度绩效评定等级 A 级 </br>
-          🏆 2023 年第 3 季度绩效评定等级 A 级 </br>
-          🏆 2023 年第 2 季度绩效评定等级 A 级 </br>
-          🏆 2023 年第 1 季度绩效评定等级 A 级 </br>             
+          🏆 23Q4 季度绩效评定 A</br>
+          🏆 23Q3 季度绩效评定 A</br>
+          🏆 23Q2 季度绩效评定 A</br>
+          🏆 23Q1 季度绩效评定 A</br>             
 
       - title: 云南南天电子信息产业股份有限公司北京分公司
         icon: icon-shangshigongsi
@@ -51,6 +51,16 @@ highlights:
       - title: 成都网阔信息技术股份有限公司 
         icon: icon-shangshigongsi
         details: 🏆 2020年成长新锐奖 </br>
+
+  - header: 项目经历 🏗️
+    description: 
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    highlights:
+      - title: 追梦人传媒
+        icon: circle-half-stroke
+        details: 追梦人传媒，专注于直播、短视频业务。项目承载了数字人直播带货、AI智能销售以及短视频业务等。
+        link: /项目经历/dreamer.md
 
   - header: 工作经历 👨🏻‍💻
     description: 伟大企业引领伟大事业，伟大事业始于爱岗敬岗
