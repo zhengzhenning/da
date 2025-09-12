@@ -1,5 +1,14 @@
 # 追梦人传媒
 
+追梦人传媒主要包括两大核心业务：直播业务、视频业务。
+
+- 直播业务
+  - 数字人直播带货（商品推介、智能体答疑）
+  - 真人直播（预告、开播、关播）
+- 视频业务
+  - 短视频
+  - 数字人商品推广视频
+
 # 项目信息
 
 | 项目属性 | 详细信息                         |
@@ -8,11 +17,12 @@
 | 研发团队 | 前端5人、后端8人、测试1人、运维1 |
 | 前端技术 | VUE/Uniapp                       |
 | 后端技术 | Java/Redis/RocketMQ/MySQL        |
-| 代码行数 |                                  |
 
-# 开发架构
+# 项目架构
 
 ![追梦人项目架构.drawio](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/%E8%BF%BD%E6%A2%A6%E4%BA%BA%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84.drawio.png)
+
+# 项目亮点
 
 # 技术亮点
 
@@ -39,6 +49,8 @@
 ![处理前MQ吞吐量](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/image-20250807111225776-20250807113951920.png)
 
 ![处理后MQ吞吐量](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/image-20250807111243360-20250807114030468.png)
+
+## SSE技术适配（智能体问答流式交互）
 
 
 
