@@ -22,9 +22,9 @@
 
 ![追梦人项目架构.drawio](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/%E8%BF%BD%E6%A2%A6%E4%BA%BA%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84.drawio.png)
 
-# 项目亮点
+# 业务亮点
 
-## 
+
 
 # 技术亮点
 
@@ -54,5 +54,11 @@
 
 ## SSE技术适配（智能体问答流式交互）
 
+在 ai-agent 背景下，传统的HTTP请求很难快速响应流式响应体。需要让接口适配 SSE（Server-Sent Event）协议。
 
+对于 dreamer 项目，SSE的适配思路如下：
 
+1. `Nginx`需禁用相关缓存、缓冲配置，比如：`proxy_buffering off;`。
+2. 在网关层分流，将传统的 RESTful 和 SSE 请求进行区分
+3. 在 SSE 接口的`@PostMapping`上声明  `produces = MediaType.TEXT_EVENT_STREAM_VALUE`
+4. 确认项目返回体是否做了统一处理，若是则需要过滤掉 `/sse`相关接口。

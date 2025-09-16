@@ -34,7 +34,7 @@ highlights:
         icon:
         details:
 
-  - header: 业绩表现
+  - header: 业绩表现力
     features:
       - title: 中国工商银行（外源)
         icon: icon-ICBC
@@ -57,7 +57,7 @@ highlights:
     description: 
     highlights:
       - title: 追梦人传媒
-        icon: circle-half-stroke
+        icon: icon-lianjie
         details: 追梦人传媒，专注于直播、短视频业务。项目承载了数字人直播带货、AI智能销售以及短视频业务等。
         link: /项目经历/dreamer.md
 
