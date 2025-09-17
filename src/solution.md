@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: 郑振宁的简历
+      content: 郑振宁的简历
 containerClass: home
 home: true
 title: 解决方案
@@ -36,7 +40,10 @@ highlights:
         icon: icon-fangan
         details:  <code>Spring Boot(2.0.3)</code> <code>RabbitMQ</code> <code>Redis</code> 直播间礼物系统的特点有：数据一致性要求高、实时性要求高、安全性要求高、消息重要性高、关联模块多（排行榜、用户等级等）  
         link:  /解决方案/直播打赏.md
-
+      - title: 电商系统是如何设计出了？
+        icon: icon-fangan
+        details:   <code>Spring Security</code> <code>OAuth2</code> <code>JWT</code>
+        link: https://zq99299.github.io/note-book/back-end-storage/00/
 
 
 
