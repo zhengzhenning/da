@@ -19,21 +19,6 @@ actions:
 
 
 highlights:
-  - header: 核心竞争力
-    features:
-      - title: 做事靠谱
-        icon: 
-        details:
-      - title: 思维缜密
-        icon:
-        details:
-      - title: 大局意识
-        icon:
-        details:
-      - title: 安全意识
-        icon:
-        details:
-
   - header: 业绩表现力
     features:
       - title: 中国工商银行（外源)
@@ -100,6 +85,169 @@ highlights:
 footer: 🇨🇳 高举中国特色社会主义伟大旗帜 </br> 💪 为实现强国建设、民族复兴伟业奋斗终身 
 ---
 
+## 能力雷达图 📊
 
+以下是我的综合能力评估雷达图，展示了执行力、思考力、抗压力、健康力等各项指标：
+
+```echarts
+{
+  "title": {
+    "text": "综合能力雷达图",
+    "left": "center",
+    "textStyle": {
+      "fontSize": 18,
+      "fontWeight": "bold"
+    }
+  },
+  "tooltip": {},
+  "radar": {
+    "indicator": [
+      { "name": "执行力", "max": 100 },
+      { "name": "思考力", "max": 100 },
+      { "name": "抗压力", "max": 100 },
+      { "name": "健康力", "max": 100 },
+      { "name": "学习力", "max": 100 },
+      { "name": "沟通力", "max": 100 }
+    ],
+    "center": ["50%", "55%"],
+    "radius": "65%",
+    "name": {
+      "textStyle": {
+        "fontSize": 14,
+        "color": "#333"
+      }
+    },
+    "splitArea": {
+      "show": true,
+      "areaStyle": {
+        "color": ["rgba(250, 250, 250, 0.3)", "rgba(200, 200, 200, 0.3)"]
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    },
+    "axisLine": {
+      "lineStyle": {
+        "color": "#aaa"
+      }
+    }
+  },
+  "series": [{
+    "name": "能力评估",
+    "type": "radar",
+    "data": [{
+      "value": [85, 90, 80, 75, 88, 82],
+      "name": "当前能力",
+      "areaStyle": {
+        "color": "rgba(64, 158, 255, 0.3)"
+      },
+      "lineStyle": {
+        "color": "#409EFF",
+        "width": 2
+      },
+      "itemStyle": {
+        "color": "#409EFF"
+      }
+    }]
+  }]
+}
+```
+
+## 兴趣爱好词云 ☁️
+
+以下是我的兴趣爱好词云图，展示了我的生活关键词：
+
+::: echarts 兴趣爱好词云
+
+```js
+// ECharts 词云配置选项
+const option = {
+  // 提示框配置：鼠标悬停时显示信息
+  tooltip: {},
+  
+  // 系列配置：定义图表类型和数据
+  series: [
+    {
+      // 图表类型：词云图
+      type: "wordCloud",
+      
+      // 词云形状：circle 表示圆形，还可以是 cardioid（心形）、diamond（菱形）、triangle（三角形）等
+      shape: "circle",
+      
+      // 是否保持宽高比：false 表示不保持，词云会填满容器
+      keepAspect: false,
+      
+      // 网格大小（像素）：用于标记画布可用性的网格大小，值越大，词之间的间距越大
+      gridSize: 8,
+      
+      // 文字大小范围：[最小值, 最大值]，单位是像素
+      // value 值会映射到这个范围内，value 越大，文字越大
+      sizeRange: [20, 60],
+      
+      // 文字旋转角度范围：[-90, 90] 表示文字可以旋转 -90 度到 90 度
+      rotationRange: [-90, 90],
+      
+      // 旋转步长：45 度，表示文字旋转角度是 45 度的倍数（-90, -45, 0, 45, 90）
+      rotationStep: 45,
+      
+      // 是否允许文字超出画布边界：false 表示不允许
+      drawOutOfBound: false,
+      
+      // 是否启用布局动画：true 表示启用，会有动画效果
+      layoutAnimation: true,
+      
+      // 全局文字样式配置
+      textStyle: {
+        // 字体族：无衬线字体
+        fontFamily: "sans-serif",
+        // 字体粗细：粗体
+        fontWeight: "bold",
+        // 文字颜色：使用函数动态生成随机颜色
+        // 生成 RGB 颜色，每个分量在 50-210 之间（50 + 0-160 的随机值）
+        color: function () {
+          return (
+            "rgb(" +
+            [
+              Math.round(Math.random() * 160 + 50),
+              Math.round(Math.random() * 160 + 50),
+              Math.round(Math.random() * 160 + 50)
+            ].join(",") +
+            ")"
+          );
+        },
+      },
+      
+      // 鼠标悬停时的强调样式
+      emphasis: {
+        // 聚焦模式：self 表示只聚焦当前项
+        focus: "self",
+        textStyle: {
+          // 文字阴影模糊半径
+          textShadowBlur: 10,
+          // 文字阴影颜色
+          textShadowColor: "#333",
+        },
+      },
+      
+      // 词云数据：数组，每个对象包含 name（词名）和 value（权重值）
+      // value 越大，词显示得越大
+      data: [
+        { name: "跑步", value: 100 },  // 权重 100，显示最大
+        { name: "健身", value: 90 },
+        { name: "游泳", value: 80 },
+        { name: "自省", value: 70 },
+        { name: "投机", value: 60 },
+        { name: "编码", value: 50 },
+        { name: "阅读", value: 40 },  // 权重 40，显示最小
+        { name: "毛泽东选集", value: 40 }   // 权重 40，显示最小
+      ],
+    },
+  ],
+};
+```
+
+:::
 
   

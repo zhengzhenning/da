@@ -3,8 +3,8 @@ containerClass: home
 home: true
 title: 技能图谱
 icon: home
-bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+bgImage: #https://theme-hope-assets.vuejs.press/bg/9-light.svg
+bgImageDark: #https://theme-hope-assets.vuejs.press/bg/9-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁
@@ -23,7 +23,7 @@ actions:
 highlights:
   - header:  组件层
     description: 组件，犹如房屋的一砖一瓦，通过合理的组合可以为贵司打造一款无与伦比的产品
-    image: /assets/image/ui.svg
+    image: /assets/images/ui.svg
     bgImage: # https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: # https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     features:
@@ -151,7 +151,7 @@ highlights:
 
   - header:  工具层
     description: 生非异也，善假于物也
-    image: /assets/image/ui.svg
+    image: /assets/images/ui.svg
     bgImage:  # https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: #  https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:

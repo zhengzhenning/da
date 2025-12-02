@@ -3,8 +3,8 @@ containerClass: home
 home: true
 title: 经典文献
 icon: home
-bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+bgImage: #https://theme-hope-assets.vuejs.press/bg/9-light.svg
+bgImageDark: #https://theme-hope-assets.vuejs.press/bg/9-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: 郑振宁

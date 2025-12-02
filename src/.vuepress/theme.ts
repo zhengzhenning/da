@@ -18,7 +18,7 @@ export default hopeTheme({
     encrypt:{
         config:{
             // 目录加密
-            "/投研日志/": "0000",
+            "/投机分子/": "0000",
         }
     },
 
@@ -150,7 +150,7 @@ export default hopeTheme({
             // insert component easily
 
             // install echarts before enabling it
-            // echarts: true,
+            echarts: true,
 
             // install flowchart.ts before enabling it
             // flowchart: true,

@@ -22,6 +22,8 @@
   "dependencies": {
     "artplayer": "^5.1.7",
     "dashjs": "^4.7.4",
+    "echarts": "^6.0.0",
+    "echarts-wordcloud": "^2.1.0",
     "hls.js": "^1.5.16",
     "mpegts.js": "^1.7.3",
     "pkg": "^5.8.1",
