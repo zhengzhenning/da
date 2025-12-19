@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: 经典文献,设计思想,哈希思想,多级缓存,系统设计,计算机科学
 containerClass: home
 home: true
 title: 经典文献

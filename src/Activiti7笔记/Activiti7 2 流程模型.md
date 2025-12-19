@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,流程模型,流程设计器,Camunda Modeler,actiBPM
+---
+
 # 流程模型
 
 使用流程设计器设计**流程模型**，可以使用**Camunda Modeler**。也可以使用 **IDEA actiBPM插件（IDEA要使用2019版）**。

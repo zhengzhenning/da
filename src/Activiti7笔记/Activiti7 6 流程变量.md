@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,流程变量,工作流变量,流程数据
+---
+
 # 流程变量
 
 <b style="color:orange">关于流程变量需要注意以下几点：</b>

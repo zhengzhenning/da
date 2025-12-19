@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Redis,缓存,NoSQL,数据结构,分布式缓存,内存数据库
+---
+
 # Redis
 
 ![79da7093ed998a99d9abe91e610b74e7.jpg](https://cdn.jsdelivr.net/gh/zhengzhenning/imageBeds@main/images/79da7093ed998a99d9abe91e610b74e7.jpg.webp)

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Serverless,SAE,SpringBoot,微服务部署,应用引擎,零代码改造,弹性伸缩
+---
+
 # 基于Serverless应用引擎部署SpringBoot微服务
 
 Serverless 应用引擎 SAE（Serverless App Engine）是一款零代码改造、极简易用、自适应弹性的应用全托管平台。SAE能够让您免运维IaaS和K8s，秒级完成从源代码、代码包、Docker镜像部署任意语言的在线应用（例如微服务、Job任务）到SAE，并自动伸缩实例按使用量计费，开箱即用日志、监控、负载均衡等配套能力。**SAE优势：让企业从容应对突发性流量洪流和灵活启停应用环境，降低资源成本**。

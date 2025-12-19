@@ -1,8 +1,8 @@
 ---
 head:
   - - meta
-    - name: 郑振宁的项目经历
-      content: 追梦人传媒（dreamer）项目
+    - name: keywords
+      content: 追梦人传媒,dreamer,直播系统,数字人直播,高并发优化,分布式锁,Spring Boot,Redis,RocketMQ,消息队列
 ---
 
 # 追梦人传媒

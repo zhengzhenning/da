@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: K均交易法,量化交易,交易策略,投资,股票交易
+---
+
 # K均交易法
 
 ## 12月日志

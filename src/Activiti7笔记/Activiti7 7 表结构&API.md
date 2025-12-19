@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,表结构,API,数据库表,工作流表
+---
+
 # 表结构
 
 4类17张表，对于表结构，熟悉数据的流向很重要，比如：

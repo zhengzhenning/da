@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,流程部署,ACT_RE_DEPLOYMENT,流程定义,部署记录
+---
+
 # 流程部署
 
 进行流程部署时，需要**关注3张表，忽略1张表：**

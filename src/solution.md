@@ -1,8 +1,8 @@
 ---
 head:
   - - meta
-    - name: 郑振宁的简历
-      content: 郑振宁的简历
+    - name: keywords
+      content: 解决方案,微服务,Spring Boot,SpringCloud,RabbitMQ,Redis,MongoDB,OAuth2,JWT,直播打赏,高并发
 containerClass: home
 home: true
 title: 解决方案

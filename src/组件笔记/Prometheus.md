@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Prometheus,监控,告警,时序数据库,微服务监控,Kubernetes,指标收集
+---
+
 # Prometheus
 
 > [!important]

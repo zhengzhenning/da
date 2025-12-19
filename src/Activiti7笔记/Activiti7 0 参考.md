@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,工作流引擎,BPMN,流程引擎,参考文档
+---
+
 # 参考
 
 - 🔗 [BPMN介绍](https://juejin.cn/post/6941989026711175182)

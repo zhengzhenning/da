@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: 技能图谱,技术栈,Spring,微服务,云原生,Kubernetes,Docker,Redis,RabbitMQ,MySQL,MongoDB,消息队列,缓存
 containerClass: home
 home: true
 title: 技能图谱

@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: MongoDB,连接保活,异常分析,Vert.x,IllegalArgumentException,问题排查,连接池
+---
+
 # MongoDB 连接保活异常分析报告
 
 ## 1. 异常概述

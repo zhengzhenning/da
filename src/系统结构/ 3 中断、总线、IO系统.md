@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: 系统结构,中断系统,总线,IO系统,输入输出,中断处理
 title: 中断、总线、IO系统
 order: 3
 icon: file

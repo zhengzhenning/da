@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: Linux,操作系统,命令行,Shell,系统管理,服务器运维
 title: Linux
 order: 1
 icon: file

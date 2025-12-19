@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Nacos,服务发现,配置中心,服务管理,微服务,云原生,Spring Cloud
+---
+
 # Nacos
 
 > [!important]

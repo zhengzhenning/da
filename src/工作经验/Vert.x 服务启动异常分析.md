@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Vert.x,服务启动异常,RejectedExecutionException,事件循环,异常分析,问题排查
+---
+
 # Vert.x 服务启动异常分析
 
 ## 一、异常详细信息

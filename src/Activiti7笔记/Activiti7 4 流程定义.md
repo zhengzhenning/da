@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Activiti7,流程定义,流程部署,工作流定义
+---
+
 # 流程定义
 
 流程定义是流程部署的产物。

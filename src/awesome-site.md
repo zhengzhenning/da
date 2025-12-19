@@ -1,7 +1,11 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: 链接地图,技术资源,云原生,代码质量,系统结构,学习资源,工具推荐
 containerClass: home
 home: true
-title: 解决方案
+title: 链接地图
 icon: home
 bgImage: # https://theme-hope-assets.vuejs.press/bg/9-light.svg
 bgImageDark: # https://theme-hope-assets.vuejs.press/bg/9-dark.svg

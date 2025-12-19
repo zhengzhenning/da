@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Oracle,数据库,SQL调优,执行计划,AUTOTRACE,性能优化
+---
+
 # SQL调优
 
 ## 使用执行计划

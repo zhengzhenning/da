@@ -1,3 +1,10 @@
+---
+head:
+  - - meta
+    - name: keywords
+      content: Lombok,Java,代码生成,注解,开发工具,简化代码
+---
+
 # Lombok
 
 > [!important]

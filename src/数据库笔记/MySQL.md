@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: MySQL,数据库,关系型数据库,SQL,索引,事务,InnoDB
 author: 振振
 title: MySQL
 order: 1

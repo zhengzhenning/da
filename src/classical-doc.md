@@ -1,4 +1,8 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: 经典文献,Raft算法,微服务架构,断路器模式,Martin Fowler,共识算法,系统设计
 containerClass: home
 home: true
 title: 经典文献
